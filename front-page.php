@@ -8,6 +8,33 @@
   </div>
 </section>
 
+<!-- section-slider ---------------------------------------------------->
+
+<section id="section-slider">
+  <div class="container">
+
+    <div class="row owl-carousel client-logo-slider">
+      <div>
+        <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/slider/toronto-astrology-1.ipg" alt="">
+      </div>
+      <div>
+        <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/slider/toronto-astrology-2.ipg" alt="">
+      </div>
+      <div>
+        <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/slider/toronto-astrology-3.ipg" alt="">
+      </div>
+
+    </div>
+    <div class="row">
+      <ul>
+        <li>Self Healing</li>
+        <li>Life Problems</li>
+        <li>Good Fortune</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
 <!-- section-Content ---------------------------------------------------->
 <section id="Content">
   <div class="container flex-row">
