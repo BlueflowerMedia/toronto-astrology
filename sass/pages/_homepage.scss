@@ -2,25 +2,34 @@
 
 #section-slider {
   background: red;
-}
-// section-contact
 
-#section-contact {}
-// section-intro
+  .container {
+    justify-content: center;
+  }
 
-#section-intro {}
-// section-services
+  .owl-carousel {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
 
-#section-services {}
-// section-appointment
-
-#section-appointment {}
-// section-testimonial
-
-#section-testimonial {}
-// section-footer
-
-#section-footer {}
-// section-contact
-
-#section-contact {}
+    img {
+      @include mobile {
+        width: 150px;
+        margin: 0 auto;
+      }
+    }
+  }
+  // section-contact
+  #section-contact {}
+  // section-intro
+  #section-intro {}
+  // section-services
+  #section-services {}
+  // section-appointment
+  #section-appointment {}
+  // section-testimonial
+  #section-testimonial {}
+  // section-footer
+  #section-footer {}
+  // section-contact
+  #section-contact {}
