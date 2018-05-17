@@ -39,9 +39,9 @@ window.sr = ScrollReveal({
 })
 
 
-// client logo slider
-function runCarousel() {
-  $(".client-logo-slider").owlCarousel({
+// photo slider
+function runCarouselphoto() {
+  $(".photo-slider").owlCarousel({
     items: 3,
     loop: true,
     margin: 10,
@@ -222,7 +222,7 @@ function runParticles() {
 }
 
 function postHeight() {
-  $(".post").height($(".post-info").outerHeight()+450);
+  $(".post").height($(".post-info").outerHeight() + 450);
 }
 
 // global functions
@@ -232,9 +232,9 @@ sr.reveal($('h1'));
 sr.reveal($('p'));
 
 
-if (pageName == "blueflowermedia") {
+if (pageName == "toronto-astrology") {
   runParticles();
-  runCarousel();
+  runCarouselphoto();
   runRellax();
 } else if (pageName == "team") {
   teamImagePlayer();

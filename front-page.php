@@ -13,7 +13,7 @@
 <section id="section-slider">
   <div class="container">
 
-    <div class="row owl-carousel client-logo-slider">
+    <div class="row owl-carousel photo-slider">
       <div>
         <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/slider/toronto-astrology-1.ipg" alt="">
       </div>
