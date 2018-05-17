@@ -1370,3 +1370,9 @@ nav#site-navigation .nav-middle {
     .menu-item a:hover:after {
       transform: scaleY(0.25) translateY(25px);
       box-shadow: none; }
+
+#section-slider {
+  background: yellow; }
+
+#section-intro {
+  background-color: red; }

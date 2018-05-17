@@ -35,10 +35,10 @@
   </div>
 </section>
 
-<!-- section-Content ---------------------------------------------------->
-<section id="Content">
+<!-- section-intro ---------------------------------------------------->
+<section id="section-intro">
   <div class="container flex-row">
-    <div class="two">
+    <div class="intro-text">
       <h1 class="white">Pandit Sri Krishna</h1>
       <h3>Best Astrologer in Toronto!</h3>
       <p class="white">Many of people think about future that what will gonna happen in our future? Pandit Krishna is an astrologer in Toronto, Ontario, Brampton, Mississauga, Downtown ,Vancouver , Canada, help you and our astrologer gives you best and top astrologer
