@@ -132,9 +132,8 @@
 <!-- section-testomonials -------------------------------------------->
 <section id="section-testomonials">
   <div class="container">
-    <div class="row">
-      <h2>People’s lives we have changed.</h2>
-    </div>
+
+    <h2>People’s lives we have changed.</h2>
 
     <div class="flex-row testimonials">
 

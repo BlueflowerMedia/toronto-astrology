@@ -67,6 +67,7 @@
       font-family: $font-primary;
       text-align: center;
       justify-content: center;
+      color: darkred;
     }
 
     h3 {
@@ -75,6 +76,7 @@
       text-align: center;
       justify-content: center;
       margin: 0;
+      color: yellow;
     }
 
     .service {
@@ -107,11 +109,13 @@
 }
 // section-testimonial
 
-#section-testimonial {
+#section-testomonials {
   .container {
+    background-color: lightyellow;
+
     h2 {
       font-family: $font-primary;
-      justify-content: center;
+      text-align: center;
       color: darkred;
     }
 

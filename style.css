@@ -1416,13 +1416,15 @@ nav#site-navigation .nav-middle {
 #section-services .container h1 {
   font-family: "Lobster Two", sans-serif;
   text-align: center;
-  justify-content: center; }
+  justify-content: center;
+  color: darkred; }
 #section-services .container h3 {
   font-family: "Lobster Two", sans-serif;
   background-color: darkred;
   text-align: center;
   justify-content: center;
-  margin: 0; }
+  margin: 0;
+  color: yellow; }
 #section-services .container .service {
   max-width: 33%;
   min-width: 400px;
@@ -1441,12 +1443,14 @@ nav#site-navigation .nav-middle {
     justify-content: center;
     color: darkred; }
 
-#section-testimonial .container h2 {
-  font-family: "Lobster Two", sans-serif;
-  justify-content: center;
-  color: darkred; }
-#section-testimonial .container p {
-  font-family: "Futura", serif;
-  padding: 0 50px; }
-  #section-testimonial .container p .author {
-    text-align: right; }
+#section-testomonials .container {
+  background-color: lightyellow; }
+  #section-testomonials .container h2 {
+    font-family: "Lobster Two", sans-serif;
+    text-align: center;
+    color: darkred; }
+  #section-testomonials .container p {
+    font-family: "Futura", serif;
+    padding: 0 50px; }
+    #section-testomonials .container p .author {
+      text-align: right; }
