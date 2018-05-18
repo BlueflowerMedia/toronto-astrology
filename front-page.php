@@ -5,7 +5,10 @@
   <div class="container">
     <h1>Toronto Astrology</h1>
     <h3>Pandit Sri Krishna</h3>
+
+
   </div>
+
 </section>
 
 <!-- section-slider ---------------------------------------------------->
@@ -26,8 +29,8 @@
       <div>
         <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/slider/toronto-astrology-4.jpg" alt="">
       </div>
-
     </div>
+
     <div class="row">
       <ul>
         <li>Self Healing</li>
@@ -35,6 +38,7 @@
         <li>Good Fortune</li>
       </ul>
     </div>
+
   </div>
 </section>
 

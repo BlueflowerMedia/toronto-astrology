@@ -5,16 +5,17 @@
 
   .container {
     justify-content: center;
+    // max-width: 900px;
   }
 
   .owl-carousel {
-    // max-width: 800px;
+    width: 900px;
     margin: 0 auto;
     text-align: center;
 
     img {
       @include mobile {
-        // width: 150px;
+        max-width: 150px;
         margin: 0 auto;
       }
     }
