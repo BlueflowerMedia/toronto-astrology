@@ -1,24 +1,10 @@
 // section-slider
 
 #section-slider {
-  background: darkred;
-
   .container {
     justify-content: center;
     // max-width: 900px;
     display: block;
-
-    .all-list {
-      color: white;
-      // margin-left: 15px;
-      .list-left ul {
-        list-style: square;
-      }
-
-      .list-right ul {
-        list-style-type: none;
-      }
-    }
   }
 
   .owl-carousel {
@@ -43,19 +29,56 @@
 }
 // section-contact
 
-#section-contact {}
+#section-contact {
+  background: darkred;
+
+  .all-list {
+    color: white;
+    font-family: $font-secondary;
+    // margin-left: 15px;
+    .list-left ul {
+      list-style: square;
+    }
+
+    .list-right ul {
+      list-style-type: none;
+    }
+  }
+}
 // section-intro
 
-#section-intro {}
+#section-intro {
+  /*
+
+
+
+  */
+}
 // section-services
 
-#section-services {}
+#section-services {
+  .container {
+    h1 {
+      font-family: $font-primary;
+      text-align: center;
+    }
+
+    .seperator {
+      background-color: yellow;
+      height: 20px;
+    }
+  }
+}
 // section-appointment
 
 #section-appointment {}
 // section-testimonial
 
-#section-testimonial {}
+#section-testimonial {
+  .testimonials {
+    display: flex;
+  }
+}
 // section-footer
 
 #section-footer {}

@@ -30,31 +30,35 @@
         <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/slider/toronto-astrology-4.jpg" alt="">
       </div>
     </div>
-
-    <div class="flex-row all-list">
-      <div class="list-left">
-        <ul>
-          <li>Self Healing</li>
-          <li>Life Problems</li>
-          <li>Good Fortune</li>
-        </ul>
-      </div>
-      <div class="list-right">
-        <ul>
-          <li>Call Today!</li>
-          <li>(647) 220-7899</li>
-          <li>info@toronto-astrology.com</li>
-        </ul>
-      </div>
-    </div>
-
   </div>
 </section>
 
-<!-- section-intro ---------------------------------------------------->
+
+<!-- section-contact ---------------------------------------------------->
+<section id="section-contact">
+  <div class="flex-row all-list">
+    <div class="list-left">
+      <ul>
+        <li>Self Healing</li>
+        <li>Life Problems</li>
+        <li>Good Fortune</li>
+      </ul>
+    </div>
+    <div class="list-right">
+      <ul>
+        <li>Call Today!</li>
+        <li>(647) 220-7899</li>
+        <li>info@toronto-astrology.com</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- section-yellow ---------------------------------------------------->
 <section>
   <div id="yel"></div>
 </section>
+
 <!-- section-intro ---------------------------------------------------->
 <section id="section-intro">
   <div class="container flex-row">
@@ -67,28 +71,78 @@
     </div>
 </section>
 
-<!-- section-testomonials ---------------------------------------------------->
+<!-- section-services ---------------------------------------------------->
+<section id="section-services">
+  <div class="container">
+    <h1 id="serv-head">Our Specialied Services</h1>
+    <div class="seperator"></div>
+    <div class="Services">
+
+      <div class="one flex-row">
+        <div>
+          <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/services/toronto-astrology-black-magic.png" alt="">
+          <h3>Black Magic Removal</h3>
+        </div>
+        <div>
+          <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/services/toronto-astrology-love.png" alt="">
+          <h3>Love Sick Remedies</h3>
+        </div>
+        <div>
+          <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/services/toronto-astrology-business" alt="">
+          <h3>Business Problems</h3>
+        </div>
+      </div>
+
+      <div class="one flex-row">
+        <div>
+          <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/services/toronto-astrology-marriage" alt="">
+          <h3>Black Magic Removal</h3>
+        </div>
+        <div>
+          <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/services/toronto-astrology-family" alt="">
+          <h3>Family Problems</h3>
+        </div>
+        <div>
+          <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/services/toronto-astrology-palm" alt="">
+          <h3>Palm Reading</h3>
+        </div>
+      </div>
+
+
+
+
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- section-yellow ---------------------------------------------------->
+<section>
+  <div id="yel"></div>
+</section>
+
+<!-- section-testomonials -------------------------------------------->
 <section id="section-testomonials">
   <div class="container">
     <div class="row">
-      <h2>Testimonials</h2>
+      <h2>People’s lives we have changed.</h2>
     </div>
-    <div class="row flex-row testimonials">
 
-      <!--   Testimonial 1 begin -->
+    <div class="flex-row testimonials">
+
       <div class="test">
         <p class="test-message">“I was a devout rational who had no faith on astrology. My scientific background forbade me from believing in these forces, but the sudden.. paranormal activities in my own family and certain unexplainable stuff before my own eyes led me to believe
           in the existence of such aspects.”</p>
         <p class="author">- Marie, Scarborough</p>
       </div>
 
-      <!--   Testimonial 2 begin -->
       <div class="test">
         <p class="test-message">“I found the astrology reading very helpful in regards to my phases of my life, and it gave me guidance. Thank you.”</p>
         <p class="author">- John, Toronto</p>
       </div>
 
-      <!--   Testimonial 3 begin -->
       <div class="test">
         <p class="test-message">“Pandit Krishna helped in a time where I had nothing else going for me. I was very depressed and down in the dumps with my addiction problems. He helped me with rituals and prayers that helped me get rid of my addictions and have a better outlook
           on life. This has helped my family situation immensly and all my friends seem to want to hang out more because I have become more stable. Thank you Pandit Krishna!”</p>
