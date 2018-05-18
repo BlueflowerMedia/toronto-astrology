@@ -1376,10 +1376,8 @@ nav#site-navigation .nav-middle {
   #section-slider .container {
     justify-content: center; }
   #section-slider .owl-carousel {
-    max-width: 800px;
     margin: 0 auto;
     text-align: center; }
     @media (max-width: 760px) {
       #section-slider .owl-carousel img {
-        width: 150px;
         margin: 0 auto; } }

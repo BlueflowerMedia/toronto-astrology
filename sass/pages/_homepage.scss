@@ -8,29 +8,36 @@
   }
 
   .owl-carousel {
-    max-width: 800px;
+    // max-width: 800px;
     margin: 0 auto;
     text-align: center;
 
     img {
       @include mobile {
-        width: 150px;
+        // width: 150px;
         margin: 0 auto;
       }
     }
   }
 }
 // section-contact
+
 #section-contact {}
 // section-intro
+
 #section-intro {}
 // section-services
+
 #section-services {}
 // section-appointment
+
 #section-appointment {}
 // section-testimonial
+
 #section-testimonial {}
 // section-footer
+
 #section-footer {}
 // section-contact
+
 #section-contact {}
