@@ -9,7 +9,7 @@ function runCarouselphoto() {
     loop: true,
     margin: 10,
     autoplay: true,
-    autoplayTimeout: 1000,
+    autoplayTimeout: 1700,
     autoplayHoverPause: true,
   });
 }

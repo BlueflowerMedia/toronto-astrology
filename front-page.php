@@ -5,13 +5,10 @@
   <div class="container">
     <h1>Toronto Astrology</h1>
     <h3>Pandit Sri Krishna</h3>
-
-
   </div>
-
 </section>
 
-<!-- section-slider ---------------------------------------------------->
+<!-- section-slider -------------------------------------------->
 
 <section id="section-slider">
   <div class="container">
@@ -34,7 +31,7 @@
 </section>
 
 
-<!-- section-contact ---------------------------------------------------->
+<!-- section-contact -------------------------------------------->
 <section id="section-contact">
   <div class="flex-row all-list">
     <div class="list-left">
@@ -54,12 +51,12 @@
   </div>
 </section>
 
-<!-- section-yellow ---------------------------------------------------->
+<!-- section-yellow -------------------------------------------->
 <section>
   <div id="yel"></div>
 </section>
 
-<!-- section-intro ---------------------------------------------------->
+<!-- section-intro -------------------------------------------->
 <section id="section-intro">
   <div class="container flex-row">
     <div class="intro-text">
@@ -71,7 +68,7 @@
     </div>
 </section>
 
-<!-- section-services ---------------------------------------------------->
+<!-- section-services -------------------------------------------->
 <section id="section-services">
   <div class="container">
 
@@ -112,7 +109,7 @@
 </section>
 
 
-<!-- section-appointment ---------------------------------------------------->
+<!-- section-appointment -------------------------------------------->
 <section id="section-appointment">
   <div class="container flex-row">
 
@@ -127,6 +124,11 @@
     </div>
 
   </div>
+</section>
+
+<!-- section-darkred -------------------------------------------->
+<section>
+  <div id="darkred"></div>
 </section>
 
 <!-- section-testomonials -------------------------------------------->
