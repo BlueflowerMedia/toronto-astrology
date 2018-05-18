@@ -31,17 +31,30 @@
       </div>
     </div>
 
-    <div class="row">
-      <ul>
-        <li>Self Healing</li>
-        <li>Life Problems</li>
-        <li>Good Fortune</li>
-      </ul>
+    <div class="flex-row all-list">
+      <div class="list-left">
+        <ul>
+          <li>Self Healing</li>
+          <li>Life Problems</li>
+          <li>Good Fortune</li>
+        </ul>
+      </div>
+      <div class="list-right">
+        <ul>
+          <li>Call Today!</li>
+          <li>(647) 220-7899</li>
+          <li>info@toronto-astrology.com</li>
+        </ul>
+      </div>
     </div>
 
   </div>
 </section>
 
+<!-- section-intro ---------------------------------------------------->
+<section>
+  <div id="yel"></div>
+</section>
 <!-- section-intro ---------------------------------------------------->
 <section id="section-intro">
   <div class="container flex-row">

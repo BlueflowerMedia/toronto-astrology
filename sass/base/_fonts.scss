@@ -1,8 +1,7 @@
-@include google-font(Source Sans Pro, 300 400 600 700);
-@include google-font(Roboto Slab, 300 400 700);
-
-$font-primary: 'Source Sans Pro', sans-serif;
-$font-secondary: 'Roboto Slab', serif;
+@include google-font(Lobster Two, 300 400 600 700);
+@include google-font(Futura, 300 400 700);
+$font-primary: 'Lobster Two', sans-serif;
+$font-secondary: 'Futura', serif;
 
 * {
   -webkit-font-smoothing: antialiased;
@@ -10,7 +9,7 @@ $font-secondary: 'Roboto Slab', serif;
 }
 
 html {
-	font-size: 16px;
+  font-size: 16px;
   @include tablet {
     font-size: 13px;
   }
@@ -19,12 +18,13 @@ html {
   }
 }
 
-p, a {
-	font-size: 1rem;
-	margin-bottom: 1rem;
-	font-family: $font-secondary;
-	color: rgba(#000000, 0.9);
-	line-height: 1.6rem;
+a,
+p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  font-family: $font-secondary;
+  color: rgba(#000000, 0.9);
+  line-height: 1.6rem;
 }
 
 a {
@@ -32,46 +32,51 @@ a {
 }
 
 nav a {
-	font-family: $font-primary;
+  font-family: $font-primary;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-family: $font-primary;
-	margin-bottom: 0rem;
+  margin-bottom: 0;
   font-weight: 700;
   line-height: 1.2;
-	color: black;
+  color: black;
 }
 
 h1 {
   font-size: 4.998rem;
-	margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 h2 {
-	font-size: 2.827rem;
+  font-size: 2.827rem;
 }
 
 h3 {
-	font-size: 1.6rem;
-	font-family: $font-secondary;
+  font-size: 1.6rem;
+  font-family: $font-secondary;
 }
 
 h4 {
-	font-size: 1.414rem;
+  font-size: 1.414rem;
 }
 
-small, .font_small {
-	font-size: 0.707rem;
+.font_small,
+small {
+  font-size: 0.707rem;
 }
 
 span.big-dot {
-	font-size: 1.2em;
+  font-size: 1.2em;
 }
 
 .center {
-	text-align: center;
+  text-align: center;
 }
+
 .right {
-	text-align: right;
+  text-align: right;
 }

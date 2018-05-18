@@ -24,8 +24,8 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  * 1. Change the default font family in all browsers (opinionated).
  * 2. Prevent adjustments of font size after orientation changes in IE and iOS.
  */
-@import url("//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700");
-@import url("//fonts.googleapis.com/css?family=Roboto+Slab:300,400,700");
+@import url("//fonts.googleapis.com/css?family=Lobster+Two:300,400,600,700");
+@import url("//fonts.googleapis.com/css?family=Futura:300,400,700");
 html {
   font-family: sans-serif;
   /* 1 */
@@ -1210,10 +1210,11 @@ html {
     html {
       font-size: 10px; } }
 
-p, a {
+a,
+p {
   font-size: 1rem;
   margin-bottom: 1rem;
-  font-family: "Roboto Slab", serif;
+  font-family: "Futura", serif;
   color: rgba(0, 0, 0, 0.9);
   line-height: 1.6rem; }
 
@@ -1221,11 +1222,14 @@ a {
   margin: 0; }
 
 nav a {
-  font-family: "Source Sans Pro", sans-serif; }
+  font-family: "Lobster Two", sans-serif; }
 
-h1, h2, h3, h4 {
-  font-family: "Source Sans Pro", sans-serif;
-  margin-bottom: 0rem;
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Lobster Two", sans-serif;
+  margin-bottom: 0;
   font-weight: 700;
   line-height: 1.2;
   color: black; }
@@ -1239,12 +1243,13 @@ h2 {
 
 h3 {
   font-size: 1.6rem;
-  font-family: "Roboto Slab", serif; }
+  font-family: "Futura", serif; }
 
 h4 {
   font-size: 1.414rem; }
 
-small, .font_small {
+.font_small,
+small {
   font-size: 0.707rem; }
 
 span.big-dot {
@@ -1372,9 +1377,16 @@ nav#site-navigation .nav-middle {
       box-shadow: none; }
 
 #section-slider {
-  background: red; }
+  background: darkred; }
   #section-slider .container {
-    justify-content: center; }
+    justify-content: center;
+    display: block; }
+    #section-slider .container .all-list {
+      color: white; }
+      #section-slider .container .all-list .list-left ul {
+        list-style: square; }
+      #section-slider .container .all-list .list-right ul {
+        list-style-type: none; }
   #section-slider .owl-carousel {
     width: 900px;
     margin: 0 auto;
@@ -1383,3 +1395,8 @@ nav#site-navigation .nav-middle {
       #section-slider .owl-carousel img {
         max-width: 150px;
         margin: 0 auto; } }
+
+#yel {
+  background-color: yellow;
+  width: 100%;
+  height: 20px; }
