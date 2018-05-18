@@ -112,11 +112,16 @@
     h2 {
       font-family: $font-primary;
       justify-content: center;
+      color: darkred;
     }
 
     p {
       font-family: $font-secondary;
       padding: 0 50px;
+
+      .author {
+        text-align: right;
+      }
     }
   }
 }

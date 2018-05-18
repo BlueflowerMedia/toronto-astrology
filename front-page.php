@@ -154,9 +154,12 @@
           on life. This has helped my family situation immensly and all my friends seem to want to hang out more because I have become more stable. Thank you Pandit Krishna!”</p>
         <p class="author">- Xavier, Toronto</p>
       </div>
+    </div>
+
+  </div>
+
+</section>
 
 
 
-
-
-      <?php get_footer(); ?>
+<?php get_footer(); ?>

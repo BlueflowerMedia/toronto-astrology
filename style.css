@@ -1443,7 +1443,10 @@ nav#site-navigation .nav-middle {
 
 #section-testimonial .container h2 {
   font-family: "Lobster Two", sans-serif;
-  justify-content: center; }
+  justify-content: center;
+  color: darkred; }
 #section-testimonial .container p {
   font-family: "Futura", serif;
   padding: 0 50px; }
+  #section-testimonial .container p .author {
+    text-align: right; }
