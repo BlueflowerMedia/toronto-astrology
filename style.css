@@ -1376,6 +1376,11 @@ nav#site-navigation .nav-middle {
       transform: scaleY(0.25) translateY(25px);
       box-shadow: none; }
 
+#colophon {
+  background-color: black; }
+  #colophon h3 {
+    color: white; }
+
 #section-slider .container {
   justify-content: center;
   display: block; }

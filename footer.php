@@ -17,7 +17,7 @@
 	<footer id="colophon" class="site-footer">
     <div class="container flex-row">
       <div class="footer-left flex1">
-        <p>&copy; <?php the_time('Y') ?>. All rights reserved. BlueFlower Media</p>
+        <p><h3 class="color: white;">&copy; <?php the_time('Y') ?>All rights reserved. BlueFlower Media</h3></p>
       </div>
 
 			<!-- Social media -->
