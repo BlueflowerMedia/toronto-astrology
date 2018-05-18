@@ -15,13 +15,16 @@
 
     <div class="row owl-carousel photo-slider">
       <div>
-        <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/slider/toronto-astrology-1.ipg" alt="">
+        <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/slider/toronto-astrology-1.jpg" alt="">
       </div>
       <div>
-        <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/slider/toronto-astrology-2.ipg" alt="">
+        <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/slider/toronto-astrology-2.jpg" alt="">
       </div>
       <div>
-        <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/slider/toronto-astrology-3.ipg" alt="">
+        <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/slider/toronto-astrology-3.jpg" alt="">
+      </div>
+      <div>
+        <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/slider/toronto-astrology-4.jpg" alt="">
       </div>
 
     </div>
