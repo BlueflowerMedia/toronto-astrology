@@ -1352,6 +1352,8 @@ nav#site-navigation .nav-middle {
     align-items: center;
     height: 100%;
     margin-left: 80px; }
+    nav#site-navigation .nav-middle ul#primary-menu a {
+      color: white; }
     nav#site-navigation .nav-middle ul#primary-menu li {
       margin: 0 10px; }
 
@@ -1376,6 +1378,11 @@ nav#site-navigation .nav-middle {
     .menu-item:hover:after {
       transform: scaleY(0.25) translateY(25px);
       box-shadow: none; }
+
+ul.sub-menu {
+  background: #2a2a2a; }
+  ul.sub-menu a {
+    color: white; }
 
 #colophon {
   background-color: black; }

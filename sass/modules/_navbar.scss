@@ -47,6 +47,10 @@ nav#site-navigation .nav-middle {
 		height: 100%;
 		margin-left: 80px;
 
+		a {
+			color: white;
+		}
+
 		li {
 			margin: 0 10px;
 		}
@@ -80,5 +84,13 @@ nav#site-navigation .nav-right {}
 			transform: scaleY(0.25) translateY(25px);
 			box-shadow: none;
 		}
+	}
+}
+
+ul.sub-menu {
+	background: $black;
+
+	a {
+		color: white;
 	}
 }
