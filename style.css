@@ -1477,7 +1477,10 @@ nav#site-navigation .nav-middle {
   background-color: lightyellow; }
   #section-testomonials .container .testimonials {
     display: flex;
-    flex-direction: column; }
+    flex-direction: row; }
+    @media (max-width: 760px) {
+      #section-testomonials .container .testimonials {
+        flex-direction: column; } }
   #section-testomonials .container h2 {
     font-family: "Lobster Two", sans-serif;
     text-align: center;

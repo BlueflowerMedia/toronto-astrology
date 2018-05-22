@@ -140,7 +140,10 @@
 
     .testimonials {
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
+      @include mobile {
+        flex-direction: column;
+      }
     }
 
     h2 {
