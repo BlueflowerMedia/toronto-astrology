@@ -1323,6 +1323,7 @@ nav#site-navigation {
   display: flex;
   flex-flow: row;
   background: #2a2a2a;
+  color: white;
   z-index: 99999;
   transition: all 200ms cubic-bezier(0.71, 0.05, 0.31, 0.95); }
   nav#site-navigation.scroll-color {
@@ -1354,15 +1355,13 @@ nav#site-navigation .nav-middle {
     nav#site-navigation .nav-middle ul#primary-menu li {
       margin: 0 10px; }
 
-.menu-item a {
+.menu-item {
   position: relative;
   text-decoration: none;
-  text-transform: uppercase;
   font-weight: 700;
   margin: 0;
-  padding: 0 5px;
-  color: white; }
-  .menu-item a:after {
+  padding: 0 5px; }
+  .menu-item:after {
     content: "";
     height: 50%;
     width: 100%;
@@ -1372,9 +1371,9 @@ nav#site-navigation .nav-middle {
     /* box-shadow: 2px 2px 0 #000000; */
     z-index: -1;
     transition: transform 0.3s cubic-bezier(0.11, 0.7, 1, 1.2); }
-  .menu-item a:hover {
+  .menu-item:hover {
     /* color: white; */ }
-    .menu-item a:hover:after {
+    .menu-item:hover:after {
       transform: scaleY(0.25) translateY(25px);
       box-shadow: none; }
 
@@ -1413,10 +1412,15 @@ nav#site-navigation .nav-middle {
     font-family: "Futura", serif; }
     #section-contact .all-list .list-left ul {
       list-style: square;
-      font-size: 2rem; }
+      font-size: 3rem;
+      margin: 0 0 0 300px; }
+      @media (max-width: 760px) {
+        #section-contact .all-list .list-left ul {
+          margin: 0; } }
     #section-contact .all-list .list-right ul {
       list-style-type: none;
-      font-size: 2rem; }
+      font-size: 3rem;
+      margin: 0; }
 
 #section-intro .container {
   display: flex;

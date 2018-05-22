@@ -32,14 +32,14 @@
 <!-- section-contact -------------------------------------------->
 <section id="section-contact">
   <div class="flex-row all-list">
-    <div class="list-left">
+    <div class="list-left flex1">
       <ul>
         <li>Self Healing</li>
         <li>Life Problems</li>
         <li>Good Fortune</li>
       </ul>
     </div>
-    <div class="list-right">
+    <div class="list-right flex1">
       <ul>
         <li>Call Today!</li>
         <li>(647) 220-7899</li>
@@ -65,6 +65,7 @@
         Downtown, Vancouver , Canada. He will provides you 100% satisfactory services and solve your problem within 2 to 3 days. So feel free to come near to us and solve any type astrological problem.</p>
     </div>
     <div class="image flex1"><img id="pic-intro" src="<?php echo get_template_directory_uri(); ?>/images/toronto-astrology-sunset.png" alt=""></div>
+  </div>
 </section>
 
 <!-- section-services -------------------------------------------->

@@ -35,12 +35,17 @@
     // margin-left: 15px;
     .list-left ul {
       list-style: square;
-      font-size: 2rem;
+      font-size: 3rem;
+      margin: 0 0 0 300px;
+      @include mobile {
+        margin: 0;
+      }
     }
 
     .list-right ul {
       list-style-type: none;
-      font-size: 2rem;
+      font-size: 3rem;
+      margin: 0;
     }
   }
 }
