@@ -3,6 +3,11 @@
 #section-slider {
   height: 90vh;
   overflow: hidden;
+  @include mobile {
+    object-fit: contain;
+    margin: 0 auto;
+    height: auto;
+  }
 
   .owl-carousel {
     margin: 0 auto;
@@ -22,7 +27,7 @@
 // section-contact
 
 #section-contact {
-  background: darkred;
+  background: $red;
 
   .all-list {
     color: white;
@@ -31,7 +36,6 @@
     .list-left ul {
       list-style: square;
       font-size: 2rem;
-      padding: 0 50px 0 300px;
     }
 
     .list-right ul {
@@ -43,11 +47,19 @@
 // section-intro
 
 #section-intro {
-  /*
+  .container {
+    display: flex;
+    background-color: $red;
 
+    h1 {
+      color: $yellow;
+    }
 
-
-  */
+    p {
+      color: white;
+    }
+  }
+  .image: {}
 }
 // section-services
 
@@ -65,14 +77,14 @@
       font-family: $font-primary;
       text-align: center;
       // justify-content: center;
-      color: darkred;
+      color: $red;
       margin: 0;
       padding: 0;
     }
 
     h3 {
       font-family: $font-primary;
-      background-color: darkred;
+      background-color: $red;
       text-align: center;
       // justify-content: center;
       margin: 0;
@@ -81,7 +93,7 @@
     }
 
     .service {
-      max-width: 33%;
+      max-width: 400px;
       min-width: 400px;
       display: flex;
       flex-direction: column;
@@ -102,11 +114,16 @@
   .container {
     background-color: $yellow;
 
+    .pic-app {
+      max-width: 140%;
+      // margin: -40%;
+    }
+
     h1 {
       font-family: $font-primary;
       text-align: center;
       justify-content: center;
-      color: darkred;
+      color: $red;
     }
   }
 }
@@ -119,7 +136,7 @@
     h2 {
       font-family: $font-primary;
       text-align: center;
-      color: darkred;
+      color: $red;
     }
 
     p {
@@ -142,7 +159,7 @@
 // section-darkred
 
 #darkred {
-  background-color: darkred;
+  background-color: $red;
   width: 100%;
   height: 20px;
 }
