@@ -1381,6 +1381,7 @@ nav#site-navigation .nav-middle {
   #colophon h3 {
     color: white; }
   #colophon .footer-right {
+    display: flex;
     justify-content: flex-end; }
 
 #section-slider {
