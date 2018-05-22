@@ -50,6 +50,15 @@
   .container {
     display: flex;
     background-color: $red;
+    @include mobile {
+      flex-direction: column;
+    }
+
+    .image {
+      @include mobile {
+        max-height: 50%;
+      }
+    }
 
     h1 {
       color: $yellow;
@@ -59,7 +68,6 @@
       color: white;
     }
   }
-  .image: {}
 }
 // section-services
 
@@ -76,7 +84,6 @@
     h1 {
       font-family: $font-primary;
       text-align: center;
-      // justify-content: center;
       color: $red;
       margin: 0;
       padding: 0;
@@ -86,7 +93,6 @@
       font-family: $font-primary;
       background-color: $red;
       text-align: center;
-      // justify-content: center;
       margin: 0;
       padding: 0;
       color: $yellow;
@@ -103,7 +109,6 @@
         height: 400px;
         margin: 0;
         padding: 0;
-        // object-fit: cover;
       }
     }
   }
@@ -132,6 +137,11 @@
 #section-testomonials {
   .container {
     background-color: lightyellow;
+
+    .testimonials {
+      display: flex;
+      flex-direction: column;
+    }
 
     h2 {
       font-family: $font-primary;
