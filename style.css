@@ -1459,7 +1459,8 @@ nav#site-navigation .nav-middle {
 #section-appointment .container {
   background-color: #EFDC05; }
   #section-appointment .container .pic-app {
-    max-width: 140%; }
+    max-width: 150%;
+    margin-left: -200px; }
   #section-appointment .container h1 {
     font-family: "Lobster Two", sans-serif;
     text-align: center;
