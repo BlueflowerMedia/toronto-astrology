@@ -5,7 +5,7 @@ var pageName = page[page.length - 2];
 // photo slider
 function runCarouselphoto() {
   $(".photo-slider").owlCarousel({
-    items: 4,
+    items: 1,
     loop: true,
     margin: 10,
     autoplay: true,

@@ -1380,18 +1380,23 @@ nav#site-navigation .nav-middle {
   background-color: black; }
   #colophon h3 {
     color: white; }
+  #colophon .footer-right {
+    justify-content: flex-end; }
 
-#section-slider .container {
-  justify-content: center;
-  display: block; }
-#section-slider .owl-carousel {
-  width: 900px;
-  margin: 0 auto;
-  text-align: center; }
-  @media (max-width: 760px) {
+#section-slider {
+  height: 90vh;
+  overflow: hidden; }
+  #section-slider .owl-carousel {
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center; }
     #section-slider .owl-carousel img {
-      max-width: 150px;
-      margin: 0 auto; } }
+      width: 100%;
+      object-fit: contain; }
+      @media (max-width: 760px) {
+        #section-slider .owl-carousel img {
+          max-width: 150px;
+          margin: 0 auto; } }
 
 #section-contact {
   background: darkred; }
@@ -1434,7 +1439,9 @@ nav#site-navigation .nav-middle {
     color: #EFDC05; }
   #section-services .container .service {
     max-width: 33%;
-    min-width: 400px; }
+    min-width: 400px;
+    display: flex;
+    flex-direction: column; }
     #section-services .container .service img {
       width: 100%;
       height: 400px;
@@ -1458,8 +1465,8 @@ nav#site-navigation .nav-middle {
   #section-testomonials .container p {
     font-family: "Futura", serif;
     padding: 0 50px; }
-    #section-testomonials .container p .author {
-      text-align: right; }
+  #section-testomonials .container .author {
+    text-align: right; }
 
 #yel {
   background-color: #EFDC05;

@@ -11,7 +11,6 @@
 <!-- section-slider -------------------------------------------->
 
 <section id="section-slider">
-  <div class="container">
 
     <div class="row owl-carousel photo-slider">
       <div>
@@ -27,7 +26,6 @@
         <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/slider/toronto-astrology-4.jpg" alt="">
       </div>
     </div>
-  </div>
 </section>
 
 
