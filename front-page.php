@@ -59,8 +59,7 @@
 <section id="section-intro">
   <div class="container flex-row">
     <div class="intro-text flex1">
-      <h1 class="white">Pandit Sri Krishna</h1>
-      <h1>Best Astrologer in Toronto!</h1>
+      <h1 class="white">Pandit Sri Krishna<br>Best Astrologer in Toronto!</h1>
       <p class="white">Many of people think about future that what will gonna happen in our future? Pandit Krishna is an astrologer in Toronto, Ontario, Brampton, Mississauga, Downtown ,Vancouver , Canada, help you and our astrologer gives you best and top astrologer
         services all over Canada. He is a good and best Indian astrologer who gives you best spiritual healing and psychic readings to solve the problem facing by the people. Our astrologer now available in your town Toronto, Ontario, Brampton, Mississauga,
         Downtown, Vancouver , Canada. He will provides you 100% satisfactory services and solve your problem within 2 to 3 days. So feel free to come near to us and solve any type astrological problem.</p>
