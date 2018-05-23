@@ -1,0 +1,124 @@
+.posts {
+  text-align: center;
+
+  .post {
+    width: 80%;
+    margin: 0 auto;
+
+    .post-image {
+      position: relative;
+
+      img {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+      }
+
+      .post-info {
+        position: absolute;
+        top: 80%;
+        left: 10%;
+        width: 80%;
+        height: auto;
+        background-color: white;
+        padding: 10px;
+        box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.2);
+        @include mobile {
+          top: 100%;
+          width: 100%;
+          left: 0;
+        }
+      }
+    }
+  }
+}
+
+.post-info a {
+  text-decoration: none;
+
+  & .arrow {
+    opacity: 0;
+    display: inline-block;
+    transform: translate(-10px, 2px);
+    transition: all 0.3s cubic-bezier(0.2, 0.99, 0.71, 1.18);
+    margin-bottom: -10px;
+
+    svg {
+      fill: white;
+    }
+  }
+
+  &.read-more {
+    border: 1px solid black;
+    background-color: black;
+    padding: 5px;
+  }
+
+  &:hover > .arrow {
+    transform: translate(2px, 2px);
+    opacity: 1;
+  }
+}
+
+.post-info a {
+  &.read-more {
+    color: white;
+  }
+}
+//CSS for single.php
+
+.post-thumbnail {
+  img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+}
+
+.container-blog {
+  padding: 10px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#related-posts .container-blog {
+  .related-posts {
+    justify-content: flex-start;
+
+    .related-post {
+      flex: 1 210px;
+      margin: 10px;
+
+      .related-post-thumb > a {
+        img {
+          height: 400px;
+          width: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}
+//Content page
+
+.container-blog-content {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px;
+
+  .entry-content {
+    flex: 1;
+    margin: 0 0 0 30px;
+  }
+
+  .social-media {
+    text-align: right;
+    width: 50px;
+    margin: 20px auto;
+  }
+}
+//Footer page-links
+
+.footer-right {
+  text-align: right;
+}

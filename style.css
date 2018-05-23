@@ -1532,3 +1532,107 @@ section#services-details .address {
 #about {
   display: flex;
   background-color: #65090b; }
+
+.posts {
+  text-align: center; }
+  .posts .post {
+    width: 80%;
+    margin: 0 auto; }
+    .posts .post .post-image {
+      position: relative; }
+      .posts .post .post-image img {
+        width: 100%;
+        height: 400px;
+        object-fit: cover; }
+      .posts .post .post-image .post-info {
+        position: absolute;
+        top: 80%;
+        left: 10%;
+        width: 80%;
+        height: auto;
+        background-color: white;
+        padding: 10px;
+        box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.2); }
+        @media (max-width: 760px) {
+          .posts .post .post-image .post-info {
+            top: 100%;
+            width: 100%;
+            left: 0; } }
+
+.post-info a {
+  text-decoration: none; }
+  .post-info a .arrow {
+    opacity: 0;
+    display: inline-block;
+    transform: translate(-10px, 2px);
+    transition: all 0.3s cubic-bezier(0.2, 0.99, 0.71, 1.18);
+    margin-bottom: -10px; }
+    .post-info a .arrow svg {
+      fill: white; }
+  .post-info a.read-more {
+    border: 1px solid black;
+    background-color: black;
+    padding: 5px; }
+  .post-info a:hover > .arrow {
+    transform: translate(2px, 2px);
+    opacity: 1; }
+
+.post-info a.read-more {
+  color: white; }
+
+.post-thumbnail img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover; }
+
+.container-blog {
+  padding: 10px;
+  max-width: 800px;
+  margin: 0 auto; }
+
+#related-posts .container-blog .related-posts {
+  justify-content: flex-start; }
+  #related-posts .container-blog .related-posts .related-post {
+    flex: 1 210px;
+    margin: 10px; }
+    #related-posts .container-blog .related-posts .related-post .related-post-thumb > a img {
+      height: 400px;
+      width: 100%;
+      object-fit: cover; }
+
+.container-blog-content {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px; }
+  .container-blog-content .entry-content {
+    flex: 1;
+    margin: 0 0 0 30px; }
+  .container-blog-content .social-media {
+    text-align: right;
+    width: 50px;
+    margin: 20px auto; }
+
+.footer-right {
+  text-align: right; }
+
+#section-contact-forms .container {
+  position: relative;
+  height: 600px; }
+  #section-contact-forms .container .form {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 500px;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.7s cubic-bezier(0.29, 1.13, 0.42, 1.07); }
+  #section-contact-forms .container #form {
+    background-color: blue;
+    transform: translateX(-30%); }
+    #section-contact-forms .container #form.active {
+      transform: translateX(0);
+      opacity: 1; }
+
+#contact-map .container .contact-info,
+#contact-map .container .contact-map {
+  min-width: 300px; }

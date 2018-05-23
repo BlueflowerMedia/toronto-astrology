@@ -1,0 +1,32 @@
+#section-contact-forms .container {
+  position: relative;
+  height: 600px;
+
+  .form {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 500px;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.7s cubic-bezier(.29,1.13,.42,1.07);
+  }
+
+  #form {
+    background-color: blue;
+    transform: translateX(-30%);
+
+    &.active {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+}
+// part contact and map
+
+#contact-map .container {
+  .contact-info,
+  .contact-map {
+    min-width: 300px;
+  }
+}
