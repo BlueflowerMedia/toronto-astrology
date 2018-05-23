@@ -1423,11 +1423,14 @@ ul.sub-menu {
       margin: 0 0 0 300px; }
       @media (max-width: 760px) {
         #section-contact .all-list .list-left ul {
-          margin: 0; } }
+          margin: 0 0 0 80px; } }
     #section-contact .all-list .list-right ul {
       list-style-type: none;
       font-size: 3rem;
       margin: 0; }
+      @media (max-width: 760px) {
+        #section-contact .all-list .list-right ul {
+          margin: 0 0 0 50px; } }
 
 #section-intro .container {
   display: flex;

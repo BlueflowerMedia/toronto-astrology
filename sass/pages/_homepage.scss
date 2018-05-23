@@ -38,7 +38,7 @@
       font-size: 3rem;
       margin: 0 0 0 300px;
       @include mobile {
-        margin: 0;
+        margin: 0 0 0 80px;
       }
     }
 
@@ -46,6 +46,9 @@
       list-style-type: none;
       font-size: 3rem;
       margin: 0;
+      @include mobile {
+        margin: 0 0 0 50px;
+      }
     }
   }
 }
