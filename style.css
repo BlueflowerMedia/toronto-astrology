@@ -1512,28 +1512,28 @@ ul.sub-menu {
   width: 100%;
   height: 20px; }
 
-#black-magic-removal .container {
+#services-all .container {
   display: flex; }
-  #black-magic-removal .container .image {
+  #services-all .container .image {
     padding: 5px 5px; }
-  #black-magic-removal .container .subservice {
+  #services-all .container .subservice {
     padding-left: 10px; }
-    #black-magic-removal .container .subservice h1 {
+    #services-all .container .subservice h1 {
       margin: 0px;
       padding-top: 0px;
       font-family: "Times New Roman";
       font-style: normal;
       font-size: 30px; }
-    #black-magic-removal .container .subservice p {
+    #services-all .container .subservice p {
       font-family: "Times New Roman";
       font-style: normal;
       font-size: 18px; }
-#black-magic-removal .address {
+#services-all .address {
   padding-left: 190px; }
-  #black-magic-removal .address h2 {
+  #services-all .address h2 {
     font-family: "Times New Roman";
     font-style: normal; }
-  #black-magic-removal .address p {
+  #services-all .address p {
     font-family: "Times New Roman";
     font-style: normal;
     font-size: 20px; }
