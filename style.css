@@ -1648,10 +1648,16 @@ ul.sub-menu {
 
 .top-heading {
   background-color: #65090b; }
+  .top-heading a {
+    text-decoration: none; }
   .top-heading div {
-    padding: 0 500px;
     justify-content: center;
     align-items: center;
     height: 140px; }
   .top-heading h3 {
     color: #fcd607; }
+
+.heading-right {
+  width: 150px;
+  display: flex;
+  justify-content: flex-end; }

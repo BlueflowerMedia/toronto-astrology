@@ -1,8 +1,11 @@
 .top-heading {
   background-color: $red;
 
+  a {
+    text-decoration: none;
+  }
+
   div {
-    padding: 0 500px;
     justify-content: center;
     align-items: center;
     height: 140px;
@@ -11,4 +14,10 @@
   h3 {
     color: $yellow;
   }
+}
+
+.heading-right {
+  width: 150px;
+  display: flex;
+  justify-content: flex-end;
 }
