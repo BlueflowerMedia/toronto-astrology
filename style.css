@@ -25,9 +25,13 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  * 2. Prevent adjustments of font size after orientation changes in IE and iOS.
  */
 @import url("//fonts.googleapis.com/css?family=Lobster+Two:300,400,600,700");
+<<<<<<< HEAD
 @import url("//fonts.googleapis.com/css?family=Futura:300,400,700");
 @import url("https://fonts.googleapis.com/css?family=Lobster");
 @import url("https://fonts.googleapis.com/css?family=Acme");
+=======
+@import url("//fonts.googleapis.com/css?family=Acme:300,400,700");
+>>>>>>> bff55c7549bf7293284da029094aa290949be1af
 html {
   font-family: sans-serif;
   /* 1 */
@@ -1216,7 +1220,7 @@ a,
 p {
   font-size: 1rem;
   margin-bottom: 1rem;
-  font-family: "Futura", serif;
+  font-family: "Acme", serif;
   color: rgba(0, 0, 0, 0.9);
   line-height: 1.6rem; }
 
@@ -1245,7 +1249,7 @@ h2 {
 
 h3 {
   font-size: 1.6rem;
-  font-family: "Futura", serif; }
+  font-family: "Acme", serif; }
 
 h4 {
   font-size: 1.414rem; }
@@ -1418,7 +1422,7 @@ ul.sub-menu {
   background: #65090b; }
   #section-contact .all-list {
     color: white;
-    font-family: "Futura", serif; }
+    font-family: "Acme", serif; }
     #section-contact .all-list .list-left ul {
       list-style: square;
       font-size: 3rem;
@@ -1499,7 +1503,7 @@ ul.sub-menu {
     text-align: center;
     color: #65090b; }
   #section-testomonials .container p {
-    font-family: "Futura", serif;
+    font-family: "Acme", serif;
     padding: 0 50px; }
   #section-testomonials .container .author {
     text-align: right; }
@@ -1514,6 +1518,7 @@ ul.sub-menu {
   width: 100%;
   height: 20px; }
 
+<<<<<<< HEAD
 .container flex-row {
   background-color: none;
   /*   margin: 10px; */
@@ -1540,3 +1545,21 @@ p.subservice-text {
   padding: auto;
   /*   align-item: center;
     justify-content: center; */ }
+=======
+section#services-details .image {
+  max-width: 100%;
+  flex: 1; }
+section#services-details .subservice {
+  font-family: 'Acme', sans-serif;
+  color: green;
+  margin: 20px;
+  flex: 1; }
+section#services-details p.subservice-text {
+  font-family: 'Lobster', cursive;
+  color: black; }
+section#services-details .address {
+  margin: auto;
+  padding: auto;
+  /*   align-item: center;
+  justify-content: center; */ }
+>>>>>>> bff55c7549bf7293284da029094aa290949be1af
