@@ -1528,3 +1528,7 @@ section#services-details .address {
   padding: auto;
   /*   align-item: center;
   justify-content: center; */ }
+
+#about {
+  display: flex;
+  background-color: #65090b; }
