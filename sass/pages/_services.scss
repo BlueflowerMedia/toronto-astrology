@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Acme');
+
+.container flex-row{
+  background-color: none;
+/*   margin: 10px; */
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.image flex1 {
+  max-width: 100%;
+  flex: 1;
+}
+
+.subservice flex1{
+  font-family: 'Acme', sans-serif;
+  color: black;
+  margin: 20px;
+  flex: 1;
+}
+
+p.subservice-text{
+  font-family: 'Lobster', cursive;
+  color: black;
+}
+
+.address{
+  margin: auto;
+  padding: auto;
+/*   align-item: center;
+  justify-content: center; */
+}
