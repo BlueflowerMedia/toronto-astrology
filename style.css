@@ -26,6 +26,8 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  */
 @import url("//fonts.googleapis.com/css?family=Lobster+Two:300,400,600,700");
 @import url("//fonts.googleapis.com/css?family=Futura:300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Lobster");
+@import url("https://fonts.googleapis.com/css?family=Acme");
 html {
   font-family: sans-serif;
   /* 1 */
@@ -1511,3 +1513,30 @@ ul.sub-menu {
   background-color: #65090b;
   width: 100%;
   height: 20px; }
+
+.container flex-row {
+  background-color: none;
+  /*   margin: 10px; */
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: row; }
+
+.image flex1 {
+  max-width: 100%;
+  flex: 1; }
+
+.subservice flex1 {
+  font-family: 'Acme', sans-serif;
+  color: black;
+  margin: 20px;
+  flex: 1; }
+
+p.subservice-text {
+  font-family: 'Lobster', cursive;
+  color: black; }
+
+.address {
+  margin: auto;
+  padding: auto;
+  /*   align-item: center;
+    justify-content: center; */ }
