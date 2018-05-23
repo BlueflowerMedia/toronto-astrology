@@ -1542,8 +1542,7 @@ ul.sub-menu {
     font-size: 20px; }
 
 #section-about.container {
-  display: flex;
-  flex-flow: row; }
+  display: flex; }
 
 .posts {
   text-align: center; }
@@ -1647,7 +1646,8 @@ ul.sub-menu {
   min-width: 300px; }
 
 .top-heading {
-  background-color: #65090b; }
+  background-color: #65090b;
+  position: relative; }
   .top-heading a {
     text-decoration: none; }
   .top-heading div {
@@ -1658,6 +1658,9 @@ ul.sub-menu {
     color: #fcd607; }
 
 .heading-right {
+  position: absolute;
+  top: 0;
+  right: 20px;
   width: 150px;
   display: flex;
   justify-content: flex-end; }

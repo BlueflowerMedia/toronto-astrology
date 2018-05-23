@@ -2,8 +2,8 @@
 
 <section id="section-about">
   <div class="container flex-row">
-    <div class="image flex1"><img id="pic-intro" src="<?php echo get_template_directory_uri(); ?>/images/about-img-1.png" alt=""></div>
-  </div>
+    <div class="image flex1"><img id="pic-intro" src="<?php echo get_template_directory_uri(); ?>/images/about-img-1.png" alt="">
+    </div>
   <div class="about-content flex1">
     <h1>Indian Vedic Astrologer In Toronto, Canada</h1>
     <p class="about-txt">Indian Astrologer in Toronto, Brampton , Mississauga ,Downtown , Vancouver , Canada - Indian Famous Astrologer Pandit Krishna began his spiritual journey at his childhood age. The vast knowledge he possesses was handed down to him by his ancestors.
@@ -16,6 +16,7 @@
       to make astounding predictions. Hundreds of people have benefited from the permanent solutions provided by Pandit Krishna.</p>
     <p class="about-txt"> Best Indian astrologer is now available in Toronto,Canada want to solve your problem with ancient astrology readings call now for immediate solution.</p>
   </div>
+</div>
 
 </section>
 

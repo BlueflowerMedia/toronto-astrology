@@ -1,5 +1,6 @@
 .top-heading {
   background-color: $red;
+  position: relative;
 
   a {
     text-decoration: none;
@@ -17,6 +18,7 @@
 }
 
 .heading-right {
+  @include position(absolute, $right: 20px, $top: 0);
   width: 150px;
   display: flex;
   justify-content: flex-end;
