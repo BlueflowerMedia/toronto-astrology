@@ -37,6 +37,7 @@
             <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><h3>ASTROLOGY</h3></a>
           </div>
 
+          <!-- Social media ----->
           <div class="heading-right">
             <a href=""><img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/toronto-astrology-facebook.png" alt=""></a>
             <a href=""><img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/toronto-astrology-youtube-icon.png" alt=""></a>
