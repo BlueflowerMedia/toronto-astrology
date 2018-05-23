@@ -1541,9 +1541,9 @@ ul.sub-menu {
     font-style: normal;
     font-size: 20px; }
 
-#about {
+#section-about.container {
   display: flex;
-  background-color: #65090b; }
+  flex-flow: row; }
 
 .posts {
   text-align: center; }

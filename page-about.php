@@ -1,10 +1,10 @@
 <?php get_header(); ?>
 
-<section id="about">
+<section id="section-about">
   <div class="container flex-row">
     <div class="image flex1"><img id="pic-intro" src="<?php echo get_template_directory_uri(); ?>/images/about-img-1.png" alt=""></div>
   </div>
-  <div class="about-content flex1">
+  <div class="about-content flex2">
     <h1>Indian Vedic Astrologer In Toronto, Canada</h1>
     <p class="about-txt">Indian Astrologer in Toronto, Brampton , Mississauga ,Downtown , Vancouver , Canada - Indian Famous Astrologer Pandit Krishna began his spiritual journey at his childhood age. The vast knowledge he possesses was handed down to him by his ancestors.
       Further, Krishna natural flair for astrology and Vedic learning came from his father, a well-known name in Canada. For all his predictions, Krishna utilizes his expertise and knowledge of astrology to give precise solutions thereby helping in identifying
@@ -21,4 +21,4 @@
 
 
 
-<?php wp_footer(); ?>
+<?php get_footer(); ?>

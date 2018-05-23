@@ -30,7 +30,8 @@
 
         <section class="top-heading">
           <div class="container flex-row">
-            <h3>TORONTO</h3><img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/logo-example.png" alt="">
+            <h3>TORONTO</h3>
+            <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/logo-example.png" alt="">
             <h3>ASTROLOGY</h3>
           </div>
         </section>
@@ -39,9 +40,8 @@
           <!-- navbar left -->
           <div class="nav-left">
             <?php the_custom_logo(); ?>
-            <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><h3 class="site-title">
-              <!-- <?php bloginfo( 'name' ); ?> -->
-            </h3></a>
+            <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+            </a>
           </div>
           <!-- navbar middle -->
           <div class="nav-middle">
