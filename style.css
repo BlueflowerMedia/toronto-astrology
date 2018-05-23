@@ -1261,9 +1261,6 @@ span.big-dot {
 .right {
   text-align: right; }
 
-* {
-  z-index: 999; }
-
 .content {
   background: white; }
 
@@ -1383,6 +1380,11 @@ ul.sub-menu {
   background: #2a2a2a; }
   ul.sub-menu a {
     color: white; }
+
+nav#site-navigation .nav-middle ul#primary-menu a {
+  transition: all 0.2s linear; }
+  nav#site-navigation .nav-middle ul#primary-menu a:hover {
+    color: #fcd607; }
 
 #colophon {
   background-color: black; }
@@ -1518,12 +1520,12 @@ ul.sub-menu {
 #services-all .container {
   display: flex; }
   #services-all .container .image {
-    padding: 5px 5px; }
+    padding: 5px; }
   #services-all .container .subservice {
     padding-left: 10px; }
     #services-all .container .subservice h1 {
-      margin: 0px;
-      padding-top: 0px;
+      margin: 0;
+      padding-top: 0;
       font-family: "Times New Roman";
       font-style: normal;
       font-size: 30px; }

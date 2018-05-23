@@ -94,3 +94,11 @@ ul.sub-menu {
 		color: white;
 	}
 }
+
+nav#site-navigation .nav-middle ul#primary-menu a {
+	transition: all 0.2s linear;
+
+	&:hover {
+		color: $yellow;
+	}
+}
