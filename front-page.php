@@ -6,6 +6,7 @@
     <h1>Toronto Astrology</h1>
     <h3>Pandit Sri Krishna</h3>
   </div>
+
 </section> -->
 
 <!-- section-slider -------------------------------------------->

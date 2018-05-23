@@ -1636,3 +1636,13 @@ section#services-details .address {
 #contact-map .container .contact-info,
 #contact-map .container .contact-map {
   min-width: 300px; }
+
+.top-heading {
+  background-color: #65090b; }
+  .top-heading div {
+    padding: 0 500px;
+    justify-content: center;
+    align-items: center;
+    height: 140px; }
+  .top-heading h3 {
+    color: #fcd607; }
