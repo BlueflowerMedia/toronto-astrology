@@ -1619,22 +1619,19 @@ section#services-details .address {
   text-align: right; }
 
 #section-contact-forms .container {
-  position: relative;
-  height: 600px; }
+  height: auto;
+  background-color: #65090b;
+  color: white; }
+  #section-contact-forms .container h1 {
+    color: white; }
+  #section-contact-forms .container h2 {
+    color: #fcd607; }
   #section-contact-forms .container .form {
-    position: absolute;
     top: 0;
     left: 0;
     height: 500px;
     width: 100%;
-    opacity: 0;
-    transition: all 0.7s cubic-bezier(0.29, 1.13, 0.42, 1.07); }
-  #section-contact-forms .container #form {
-    background-color: blue;
-    transform: translateX(-30%); }
-    #section-contact-forms .container #form.active {
-      transform: translateX(0);
-      opacity: 1; }
+    opacity: 0; }
 
 #contact-map .container .contact-info,
 #contact-map .container .contact-map {
