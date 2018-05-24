@@ -1,5 +1,5 @@
 /*!
-Theme Name: Toronto-astrology
+Theme Name: toronto-astrology
 Theme URI: http://underscores.me/
 Author: Blueflowermedia
 Author URI: http://www.blueflowermedia.com
@@ -1414,7 +1414,7 @@ nav#site-navigation .nav-middle ul#primary-menu a {
   z-index: 99;
   list-style: none; }
 
-.image {
+.slider-image {
   position: absolute;
   z-index: 0;
   width: 100%;
@@ -1431,20 +1431,20 @@ nav#site-navigation .nav-middle ul#primary-menu a {
 .active {
   opacity: 1; }
 
-.image:nth-of-type(1) {
-  background: url("./images/slider/Toronto-astrology-1.jpg") no-repeat top center;
+.slider-image:nth-of-type(1) {
+  background: url("./images/slider/toronto-astrology-1.jpg") no-repeat top center;
   background-size: cover; }
 
-.image:nth-of-type(2) {
-  background: url("./images/slider/Toronto-astrology-2.jpg") no-repeat top center;
+.slider-image:nth-of-type(2) {
+  background: url("./images/slider/toronto-astrology-2.jpg") no-repeat top center;
   background-size: cover; }
 
-.image:nth-of-type(3) {
-  background: url("./images/slider/Toronto-astrology-3.jpg") no-repeat top center;
+.slider-image:nth-of-type(3) {
+  background: url("./images/slider/toronto-astrology-3.jpg") no-repeat top center;
   background-size: cover; }
 
-.image:nth-of-type(4) {
-  background: url("./images/slider/Toronto-astrology-4.jpg") no-repeat top center;
+.slider-image:nth-of-type(4) {
+  background: url("./images/slider/toronto-astrology-4.jpg") no-repeat top center;
   background-size: cover; }
 
 #section-contact {

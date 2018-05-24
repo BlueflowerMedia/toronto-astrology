@@ -8,9 +8,9 @@ $(document).ready(function() {
 
   function play() {
     setInterval(function() {
-      var next = $(".slideshow .active").removeClass("active").next(".image");
+      var next = $(".slideshow .active").removeClass("active").next(".slider-image");
       if (!next.length) {
-        next = $(".slideshow .image:first");
+        next = $(".slideshow .slider-image:first");
       }
       next.addClass("active");
     }, 5000);
@@ -18,19 +18,9 @@ $(document).ready(function() {
   play();
 });
 
-function runCarouselphoto() {
-  $(".photo-slider").owlCarousel({
-    items: 1,
-    loop: true,
-    margin: 10,
-    autoplay: true,
-    autoplayTimeout: 1700,
-    autoplayHoverPause: true,
-  });
-}
 
 // global functions
 
-if (pageName == "Toronto-astrology") {
+if (pageName == "toronto-astrology") {
   runCarouselphoto();
 }
