@@ -15,7 +15,7 @@
 <div class="container">
   <div class="address">
     <h2>Address</h2>
-    <p>Address: 7393 Markham Rd, Markham, ON L3S 0B5<br><br>Email: astropanditkrishna@gmail.com<br><br>Phones: Contact us directly at +1 416 666 2259
+    <p>Address: 7393 Markham Rd, Markham, ON L3S 0B5<br><br>Email:  info@toronto-astrology.com<br><br>Phones: (647) 220-7899
       <p>
   </div>
 </div>
