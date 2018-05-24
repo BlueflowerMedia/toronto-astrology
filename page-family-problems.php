@@ -15,7 +15,7 @@
 <div class="container">
   <div class="address">
     <h2>Address</h2>
-    <p>Address: 7393 Markham Rd, Markham, ON L3S 0B5<br><br>Email:  info@toronto-astrology.com<br><br>Phones: (647) 220-7899
+    <p>Address: 7393 Markham Rd, Markham, ON L3S 0B5<br><br>Email:  info@Toronto-astrology.com<br><br>Phones: (647) 220-7899
       <p>
   </div>
 </div>
