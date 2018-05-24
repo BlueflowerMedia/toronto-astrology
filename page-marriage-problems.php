@@ -12,16 +12,12 @@
  <div class="address">
     <h2>Address</h2>
     <p>
-      <i class="fas fa-map-marker" style="color:#FF4500"></i> Address: 3092 Danforth Ave. Suite #205, Toronto, ON M1L 1B1<br><br>
-      <i class="far fa-envelope" style="color:#FF4500"></i> Email: astropanditkrishna@gmail.com<br><br>
-      <i class="fa fa-phone" style="color:#FF4500"></i> Phone: Contact us directly at <font color="red"> +1 416 666 2259</font>
+      <i class="fas fa-map-marker" style="color:#FF4500"></i> Address: 7393 Markham Rd, Markham, ON L3S 0B5<br><br>
+      <i class="far fa-envelope" style="color:#FF4500"></i> Email:  info@toronto-astrology.com<br><br>
+      <i class="fa fa-phone" style="color:#FF4500"></i> Phone: (647) 220-7899
     </p>
   </div>
 
 </section>
 
-<<<<<<< HEAD
 <?php get_footer(); ?>
-=======
-<?php wp_footer(); ?>
->>>>>>> 3a71bf8e1d49bfdc50db5602262c32cd860e076f
