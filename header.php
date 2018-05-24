@@ -39,8 +39,8 @@
 
           <!-- Social media ----->
           <div class="heading-right">
-            <a href=""><img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/Toronto-astrology-facebook.png" alt=""></a>
-            <a href=""><img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/Toronto-astrology-youtube-icon.png" alt=""></a>
+            <a href=""><img id="pic-h" src="<?php echo get_template_directory_uri(); ?>/images/Toronto-astrology-facebook.png" alt=""></a>
+            <a href=""><img id="pic-h" src="<?php echo get_template_directory_uri(); ?>/images/Toronto-astrology-youtube-icon.png" alt=""></a>
           </div>
         </section>
 

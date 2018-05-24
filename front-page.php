@@ -1,32 +1,27 @@
 <?php get_header(); ?>
 
 <!-- section header -->
-<!-- <section id="section-header" class="one">
-  <div class="container">
-    <h1>Toronto Astrology</h1>
-    <h3>Pandit Sri Krishna</h3>
-  </div>
-
-</section> -->
 
 <!-- section-slider -------------------------------------------->
 
 <section id="section-slider">
 
-  <div class="row owl-carousel photo-slider">
-    <div>
-      <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/slider/Toronto-astrology-1.jpg" alt="">
-    </div>
-    <div>
-      <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/slider/Toronto-astrology-2.jpg" alt="">
-    </div>
-    <div>
-      <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/slider/Toronto-astrology-3.jpg" alt="">
-    </div>
-    <div>
-      <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/slider/Toronto-astrology-4.jpg" alt="">
-    </div>
+  <div class="main-screen">
+    <ul class="slideshow">
+      <li class="image active">
+
+      </li>
+      <li class="image">
+
+      </li>
+
+      <li class="image">
+
+      </li>
+    </ul>
   </div>
+
+
 </section>
 
 

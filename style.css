@@ -1394,29 +1394,58 @@ nav#site-navigation .nav-middle ul#primary-menu a {
   #colophon .footer-right {
     display: flex;
     justify-content: flex-end; }
-    #colophon .footer-right #pic1 {
+    #colophon .footer-right #picf {
       width: 100px;
       padding: 0 5px; }
 
-#section-slider {
-  height: 90vh;
-  overflow: hidden; }
-  @media (max-width: 760px) {
-    #section-slider {
-      object-fit: contain;
-      margin: 0 auto;
-      height: auto; } }
-  #section-slider .owl-carousel {
-    margin: 0 auto;
-    text-align: center;
-    justify-content: center; }
-    #section-slider .owl-carousel img {
-      width: 100%;
-      object-fit: contain; }
-      @media (max-width: 760px) {
-        #section-slider .owl-carousel img {
-          max-width: 150px;
-          margin: 0 auto; } }
+.main-screen {
+  z-index: 98;
+  padding: 0;
+  height: 65vh;
+  width: 100vw;
+  position: relative;
+  background: black; }
+
+.slideshow {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  z-index: 99;
+  list-style: none; }
+
+.image {
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  display: block;
+  transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 1s ease-in-out;
+  opacity: 0; }
+
+.active {
+  opacity: 1; }
+
+.image:nth-of-type(1) {
+  background: url("./images/slider/Toronto-astrology-1.jpg") no-repeat top center;
+  background-size: cover; }
+
+.image:nth-of-type(2) {
+  background: url("./images/slider/Toronto-astrology-2.jpg") no-repeat top center;
+  background-size: cover; }
+
+.image:nth-of-type(3) {
+  background: url("./images/slider/Toronto-astrology-3.jpg") no-repeat top center;
+  background-size: cover; }
+
+.image:nth-of-type(4) {
+  background: url("./images/slider/Toronto-astrology-4.jpg") no-repeat top center;
+  background-size: cover; }
 
 #section-contact {
   background: #65090b; }
@@ -1653,5 +1682,5 @@ nav#site-navigation .nav-middle ul#primary-menu a {
   width: 150px;
   display: flex;
   justify-content: flex-end; }
-  .heading-right #pic1 {
+  .heading-right #pic-h {
     padding: 0 5px; }
