@@ -33,14 +33,14 @@
             <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
               <h3>Toronto</h3></a>
             <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-              <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/logo-example.png" alt=""></a>
+              <img id="pic-logo" src="<?php echo get_template_directory_uri(); ?>/images/logo-example.png" alt=""></a>
             <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><h3>ASTROLOGY</h3></a>
           </div>
 
           <!-- Social media ----->
           <div class="heading-right">
-            <a href=""><img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/Toronto-astrology-facebook.png" alt=""></a>
-            <a href=""><img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/Toronto-astrology-youtube-icon.png" alt=""></a>
+            <a href=""><img class="pic-social" src="<?php echo get_template_directory_uri(); ?>/images/Toronto-astrology-facebook.png" alt=""></a>
+            <a href=""><img class="pic-social" src="<?php echo get_template_directory_uri(); ?>/images/Toronto-astrology-youtube-icon.png" alt=""></a>
           </div>
         </section>
 

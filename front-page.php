@@ -75,27 +75,27 @@
     <div class="Services flex-row">
 
       <div class="service flex1">
-        <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/services/Toronto-astrology-black-magic.png" alt="">
+        <img class="pictureservice" src="<?php echo get_template_directory_uri(); ?>/images/services/Toronto-astrology-black-magic.png" alt="">
         <h3>Black Magic Removal</h3>
       </div>
       <div class="service flex1">
-        <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/services/Toronto-astrology-love.png" alt="">
+        <img class="pictureservice" src="<?php echo get_template_directory_uri(); ?>/images/services/Toronto-astrology-love.png" alt="">
         <h3>Love Sick Remedies</h3>
       </div>
       <div class="service flex1">
-        <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/services/Toronto-astrology-business" alt="">
+        <img class="pictureservice" src="<?php echo get_template_directory_uri(); ?>/images/services/Toronto-astrology-business" alt="">
         <h3>Business Problems</h3>
       </div>
       <div class="service flex1">
-        <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/services/Toronto-astrology-marriage" alt="">
+        <img class="pictureservice" src="<?php echo get_template_directory_uri(); ?>/images/services/Toronto-astrology-marriage" alt="">
         <h3>Marriage Related Problem</h3>
       </div>
       <div class="service flex1">
-        <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/services/Toronto-astrology-family" alt="">
+        <img class="pictureservice" src="<?php echo get_template_directory_uri(); ?>/images/services/Toronto-astrology-family" alt="">
         <h3>Family Problems</h3>
       </div>
       <div class="service flex1">
-        <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/services/Toronto-astrology-palm" alt="">
+        <img class="pictureservice" src="<?php echo get_template_directory_uri(); ?>/images/services/Toronto-astrology-palm" alt="">
         <h3>Palm Reading</h3>
       </div>
 
