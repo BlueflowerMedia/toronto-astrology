@@ -86,7 +86,7 @@
       </div>
       <div class="service flex1">
         <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/services/Toronto-astrology-marriage" alt="">
-        <h3>Black Magic Removal</h3>
+        <h3>Marriage Related Problem</h3>
       </div>
       <div class="service flex1">
         <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/services/Toronto-astrology-family" alt="">
