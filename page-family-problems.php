@@ -8,7 +8,7 @@
       <p class="subservice-text">Family is definitely your all-time support system, but what if your support system is disintegrating and leaving you upset and unhappy! If you’re looking for expedient means to bring your family members closer and revel in the happiness of a well-bonded.
         There are times when you have some issues with your brothers, sisters, parents and even wife and children that result in separation. With the spiritual assistance, you can bring back all your family members together.</p>
     </div>
-    <div class="image flex1"><img id="pic-intro" src="<?php echo get_template_directory_uri(); ?>/images/sub-services/negative-energy-removal.jpg" alt=""></div>
+    <div class="image flex1"><img id="picservice" src="<?php echo get_template_directory_uri(); ?>/images/sub-services/negative-energy-removal.jpg" alt=""></div>
   </div>
 </section>
 

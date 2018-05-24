@@ -8,19 +8,14 @@
 
   <div class="main-screen">
     <ul class="slideshow">
-      <li class="image active">
-
+      <li class="slider-image active">
       </li>
-      <li class="image">
-
+      <li class="slider-image">
       </li>
-
-      <li class="image">
-
+      <li class="slider-image">
       </li>
     </ul>
   </div>
-
 
 </section>
 
@@ -39,7 +34,7 @@
       <ul>
         <li>Call Today!</li>
         <li>(647) 220-7899</li>
-        <li>info@Toronto-astrology.com</li>
+        <li>info@toronto-astrology.com</li>
       </ul>
     </div>
   </div>
@@ -58,9 +53,17 @@
       <p class="white">Many of people think about future that what will gonna happen in our future? Pandit Krishna is an astrologer in Toronto, Ontario, Brampton, Mississauga, Downtown ,Vancouver , Canada, help you and our astrologer gives you best and top astrologer
         services all over Canada. He is a good and best Indian astrologer who gives you best spiritual healing and psychic readings to solve the problem facing by the people. Our astrologer now available in your town Toronto, Ontario, Brampton, Mississauga,
         Downtown, Vancouver , Canada. He will provides you 100% satisfactory services and solve your problem within 2 to 3 days. So feel free to come near to us and solve any type astrological problem.</p>
+<<<<<<< HEAD
     </div>
     <!-- <div class="image flex1"><img id="pic-intro" src="<?php echo get_template_directory_uri(); ?>/images/Toronto-astrology-sunset.png" alt=""></div>
   </div> -->
+=======
+    <!-- </div>
+    <div class="image flex1">
+      <img id="pic-intro" src="<?php echo get_template_directory_uri(); ?>/images/toronto-astrology-sunset.png" alt="">
+    </div> -->
+  </div>
+>>>>>>> 52ded5b9eb720bc08877641373526190786a557f
 </section>
 
 <!-- section-services -------------------------------------------->
@@ -73,27 +76,27 @@
     <div class="Services flex-row">
 
       <div class="service flex1">
-        <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/services/Toronto-astrology-black-magic.png" alt="">
+        <img class="pictureservice" src="<?php echo get_template_directory_uri(); ?>/images/services/toronto-astrology-black-magic.png" alt="">
         <h3>Black Magic Removal</h3>
       </div>
       <div class="service flex1">
-        <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/services/Toronto-astrology-love.png" alt="">
+        <img class="pictureservice" src="<?php echo get_template_directory_uri(); ?>/images/services/toronto-astrology-love.png" alt="">
         <h3>Love Sick Remedies</h3>
       </div>
       <div class="service flex1">
-        <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/services/Toronto-astrology-business" alt="">
+        <img class="pictureservice" src="<?php echo get_template_directory_uri(); ?>/images/services/toronto-astrology-business" alt="">
         <h3>Business Problems</h3>
       </div>
       <div class="service flex1">
-        <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/services/Toronto-astrology-marriage" alt="">
+        <img class="pictureservice" src="<?php echo get_template_directory_uri(); ?>/images/services/toronto-astrology-marriage" alt="">
         <h3>Marriage Related Problem</h3>
       </div>
       <div class="service flex1">
-        <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/services/Toronto-astrology-family" alt="">
+        <img class="pictureservice" src="<?php echo get_template_directory_uri(); ?>/images/services/toronto-astrology-family" alt="">
         <h3>Family Problems</h3>
       </div>
       <div class="service flex1">
-        <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/services/Toronto-astrology-palm" alt="">
+        <img class="pictureservice" src="<?php echo get_template_directory_uri(); ?>/images/services/toronto-astrology-palm" alt="">
         <h3>Palm Reading</h3>
       </div>
 
@@ -108,7 +111,7 @@
   <div class="container flex-row">
 
     <div class="pic-app flex1">
-      <img id="pic-app" src="<?php echo get_template_directory_uri(); ?>/images/Toronto-astrology-phone.svg" alt="">
+      <img id="pic-app" src="<?php echo get_template_directory_uri(); ?>/images/toronto-astrology-phone.svg" alt="">
     </div>
 
     <div class="appointment flex2">

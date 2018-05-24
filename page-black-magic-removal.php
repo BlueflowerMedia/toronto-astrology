@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <section id="services-all">
   <div class="container flex-row">
-    <div class="image flex1"><img id="pic-intro" src="<?php echo
+    <div class="image flex1"><img src="<?php echo
         get_template_directory_uri(); ?>/images/sub-services/black-magic-removal.jpg" alt=""></div>
     <div class="subservice flex1">
       <h1>Black Magic Removal In Toronto, Brampton, Mississauga, Downtown, Vancouver, Canada</h1>

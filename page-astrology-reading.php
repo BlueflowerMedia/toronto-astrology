@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <section id="services-all">
   <div class="container flex-row">
-    <div class="image flex1"><img id="pic-intro" src="<?php echo
+    <div class="image flex1"><img src="<?php echo
         get_template_directory_uri(); ?>/images/sub-services/astrology-reading.jpeg" alt="" height="700" width="1000"></div>
     <div class="subservice flex1">
       <h1>Astrology Reading</h1>
@@ -13,7 +13,7 @@
     <h2>Address</h2>
     <p>
       <i class="fas fa-map-marker" style="color:#FF4500"></i> Address: 7393 Markham Rd, Markham, ON L3S 0B5<br><br>
-      <i class="far fa-envelope" style="color:#FF4500"></i> Email:  info@Toronto-astrology.com<br><br>
+      <i class="far fa-envelope" style="color:#FF4500"></i> Email:  info@toronto-astrology.com<br><br>
       <i class="fa fa-phone" style="color:#FF4500"></i> Phone: (647) 220-7899
     </p>
   </div>
