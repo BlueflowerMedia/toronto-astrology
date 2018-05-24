@@ -1523,25 +1523,8 @@ nav#site-navigation .nav-middle ul#primary-menu a {
     padding: 5px; }
   #services-all .container .subservice {
     padding-left: 10px; }
-    #services-all .container .subservice h1 {
-      margin: 0;
-      padding-top: 0;
-      font-family: "Times New Roman";
-      font-style: normal;
-      font-size: 30px; }
-    #services-all .container .subservice p {
-      font-family: "Times New Roman";
-      font-style: normal;
-      font-size: 18px; }
 #services-all .address {
   padding-left: 190px; }
-  #services-all .address h2 {
-    font-family: "Times New Roman";
-    font-style: normal; }
-  #services-all .address p {
-    font-family: "Times New Roman";
-    font-style: normal;
-    font-size: 20px; }
 
 #section-about.container {
   display: flex; }

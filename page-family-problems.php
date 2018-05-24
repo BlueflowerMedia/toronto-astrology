@@ -15,7 +15,7 @@
 <div class="container">
   <div class="address">
     <h2>Address</h2>
-    <p>Address: 3092 Danforth Ave. Suite #205, Toronto, ON M1L 1B1<br><br>Email: astropanditkrishna@gmail.com<br><br>Phones: Contact us directly at +1 416 666 2259
+    <p>Address: 7393 Markham Rd, Markham, ON L3S 0B5<br><br>Email: astropanditkrishna@gmail.com<br><br>Phones: Contact us directly at +1 416 666 2259
       <p>
   </div>
 </div>
