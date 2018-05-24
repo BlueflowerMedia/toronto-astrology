@@ -17,13 +17,19 @@
 	<footer id="colophon" class="site-footer">
     <div class="container flex-row">
       <div class="footer-left flex1">
-        <p><h3 class="color: white;">&copy; <?php the_time('Y') ?>All rights reserved. Toronto-Astrology</h3></p>
+        <p>
+					<h3 class="color: white;">&copy; <?php the_time('Y') ?>All rights reserved. Toronto-Astrology</h3>
+				</p>
       </div>
 
 			<!-- Social media -->
 				<div class="footer-right flex1">
-						<a href=""><img id="picf" src="<?php echo get_template_directory_uri(); ?>/images/toronto-astrology-facebook.png" alt=""></a>
-						<a href=""><img id="picf" src="<?php echo get_template_directory_uri(); ?>/images/toronto-astrology-youtube-icon.png" alt=""></a>
+						<a href="">
+							<img id="picf" src="<?php echo get_template_directory_uri(); ?>/images/toronto-astrology-facebook.png" alt="">
+						</a>
+						<a href="">
+							<img id="picf" src="<?php echo get_template_directory_uri(); ?>/images/toronto-astrology-youtube-icon.png" alt="">
+						</a>
 	      </div>
 
     </div>
