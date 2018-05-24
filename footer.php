@@ -22,8 +22,8 @@
 
 			<!-- Social media -->
 				<div class="footer-right flex1">
-						<a href=""><img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/toronto-astrology-facebook.png" alt=""></a>
-						<a href=""><img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/toronto-astrology-youtube-icon.png" alt=""></a>
+						<a href=""><img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/Toronto-astrology-facebook.png" alt=""></a>
+						<a href=""><img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/Toronto-astrology-youtube-icon.png" alt=""></a>
 	      </div>
 
     </div>

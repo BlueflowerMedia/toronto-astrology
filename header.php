@@ -31,7 +31,7 @@
         <section class="top-heading">
           <div class="container flex-row">
             <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-              <h3>TORONTO</h3></a>
+              <h3>Toronto</h3></a>
             <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
               <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/logo-example.png" alt=""></a>
             <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><h3>ASTROLOGY</h3></a>
@@ -39,8 +39,8 @@
 
           <!-- Social media ----->
           <div class="heading-right">
-            <a href=""><img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/toronto-astrology-facebook.png" alt=""></a>
-            <a href=""><img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/toronto-astrology-youtube-icon.png" alt=""></a>
+            <a href=""><img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/Toronto-astrology-facebook.png" alt=""></a>
+            <a href=""><img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/Toronto-astrology-youtube-icon.png" alt=""></a>
           </div>
         </section>
 

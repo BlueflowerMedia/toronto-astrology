@@ -15,16 +15,16 @@
 
   <div class="row owl-carousel photo-slider">
     <div>
-      <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/slider/toronto-astrology-1.jpg" alt="">
+      <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/slider/Toronto-astrology-1.jpg" alt="">
     </div>
     <div>
-      <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/slider/toronto-astrology-2.jpg" alt="">
+      <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/slider/Toronto-astrology-2.jpg" alt="">
     </div>
     <div>
-      <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/slider/toronto-astrology-3.jpg" alt="">
+      <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/slider/Toronto-astrology-3.jpg" alt="">
     </div>
     <div>
-      <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/slider/toronto-astrology-4.jpg" alt="">
+      <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/slider/Toronto-astrology-4.jpg" alt="">
     </div>
   </div>
 </section>
@@ -44,7 +44,7 @@
       <ul>
         <li>Call Today!</li>
         <li>(647) 220-7899</li>
-        <li>info@toronto-astrology.com</li>
+        <li>info@Toronto-astrology.com</li>
       </ul>
     </div>
   </div>
@@ -64,7 +64,7 @@
         services all over Canada. He is a good and best Indian astrologer who gives you best spiritual healing and psychic readings to solve the problem facing by the people. Our astrologer now available in your town Toronto, Ontario, Brampton, Mississauga,
         Downtown, Vancouver , Canada. He will provides you 100% satisfactory services and solve your problem within 2 to 3 days. So feel free to come near to us and solve any type astrological problem.</p>
     </div>
-    <div class="image flex1"><img id="pic-intro" src="<?php echo get_template_directory_uri(); ?>/images/toronto-astrology-sunset.png" alt=""></div>
+    <div class="image flex1"><img id="pic-intro" src="<?php echo get_template_directory_uri(); ?>/images/Toronto-astrology-sunset.png" alt=""></div>
   </div>
 </section>
 
@@ -78,27 +78,27 @@
     <div class="Services flex-row">
 
       <div class="service flex1">
-        <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/services/toronto-astrology-black-magic.png" alt="">
+        <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/services/Toronto-astrology-black-magic.png" alt="">
         <h3>Black Magic Removal</h3>
       </div>
       <div class="service flex1">
-        <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/services/toronto-astrology-love.png" alt="">
+        <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/services/Toronto-astrology-love.png" alt="">
         <h3>Love Sick Remedies</h3>
       </div>
       <div class="service flex1">
-        <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/services/toronto-astrology-business" alt="">
+        <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/services/Toronto-astrology-business" alt="">
         <h3>Business Problems</h3>
       </div>
       <div class="service flex1">
-        <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/services/toronto-astrology-marriage" alt="">
+        <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/services/Toronto-astrology-marriage" alt="">
         <h3>Black Magic Removal</h3>
       </div>
       <div class="service flex1">
-        <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/services/toronto-astrology-family" alt="">
+        <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/services/Toronto-astrology-family" alt="">
         <h3>Family Problems</h3>
       </div>
       <div class="service flex1">
-        <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/services/toronto-astrology-palm" alt="">
+        <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/services/Toronto-astrology-palm" alt="">
         <h3>Palm Reading</h3>
       </div>
 
@@ -113,7 +113,7 @@
   <div class="container flex-row">
 
     <div class="pic-app flex1">
-      <img id="pic-app" src="<?php echo get_template_directory_uri(); ?>/images/toronto-astrology-phone.svg" alt="">
+      <img id="pic-app" src="<?php echo get_template_directory_uri(); ?>/images/Toronto-astrology-phone.svg" alt="">
     </div>
 
     <div class="appointment flex2">

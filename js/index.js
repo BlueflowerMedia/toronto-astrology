@@ -16,6 +16,6 @@ function runCarouselphoto() {
 
 // global functions
 
-if (pageName == "toronto-astrology") {
+if (pageName == "Toronto-astrology") {
   runCarouselphoto();
 }
