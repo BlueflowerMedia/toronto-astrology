@@ -10,7 +10,7 @@
         your relationship with your spouse then you should keep work on it as soon as possible because you never know that when the small conflicts and issues get bigger and make your marriage relationship in problems. If you have tried all things but
         nothing had work then you should take help of Love spell to survive a marriage during conflicts. Love spell will gonna make help you perfectly and you can get your happiest normal life once again.</p>
     </div>
-    <div class="image flex1"><img id="pic-intro" src="<?php echo get_template_directory_uri(); ?>/images/sub-services/negative-energy-removal.jpg" alt=""></div>
+    <div class="image flex1"><img id="picservice" src="<?php echo get_template_directory_uri(); ?>/images/sub-services/negative-energy-removal.jpg" alt=""></div>
   </div>
 </section>
 
