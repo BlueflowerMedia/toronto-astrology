@@ -1387,12 +1387,16 @@ nav#site-navigation .nav-middle ul#primary-menu a {
     color: #fcd607; }
 
 #colophon {
-  background-color: black; }
+  background-color: black;
+  padding: 0; }
   #colophon h3 {
     color: white; }
   #colophon .footer-right {
     display: flex;
     justify-content: flex-end; }
+    #colophon .footer-right #pic1 {
+      width: 100px;
+      padding: 0 5px; }
 
 #section-slider {
   height: 90vh;

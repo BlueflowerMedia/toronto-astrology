@@ -1,5 +1,6 @@
 #colophon {
   background-color: black;
+  padding: 0;
 
   h3 {
     color: white;
@@ -8,5 +9,10 @@
   .footer-right {
     display: flex;
     justify-content: flex-end;
+
+    #pic1 {
+      width: 100px;
+      padding: 0 5px;
+    }
   }
 }
