@@ -55,13 +55,9 @@
         Downtown, Vancouver , Canada. He will provides you 100% satisfactory services and solve your problem within 2 to 3 days. So feel free to come near to us and solve any type astrological problem.</p>
 
     </div>
-    <div class="image flex1"><img id="pic-intro" src="<?php echo get_template_directory_uri(); ?>/images/Toronto-astrology-sunset.png" alt=""></div>
-  </div>
-
-    <!-- </div>
     <div class="image flex1">
       <img id="pic-intro" src="<?php echo get_template_directory_uri(); ?>/images/toronto-astrology-sunset.png" alt="">
-    </div> -->
+    </div>
   </div>
 
 </section>
