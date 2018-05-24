@@ -18,6 +18,16 @@ $(document).ready(function() {
   play();
 });
 
+function runCarouselphoto() {
+  $(".photo-slider").owlCarousel({
+    items: 1,
+    loop: true,
+    margin: 10,
+    autoplay: true,
+    autoplayTimeout: 1700,
+    autoplayHoverPause: true,
+  });
+}
 
 // global functions
 
