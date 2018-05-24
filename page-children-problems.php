@@ -22,6 +22,3 @@
 
 <<<<<<< HEAD
 <?php get_footer(); ?>
-=======
-<?php wp_footer(); ?>
->>>>>>> 3a71bf8e1d49bfdc50db5602262c32cd860e076f
