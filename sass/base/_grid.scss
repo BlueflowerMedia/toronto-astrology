@@ -38,6 +38,9 @@
 .flex-row {
 	@extend %flex;
 	flex-flow: row wrap;
+	@include mobile {
+		flex-direction: column;
+	}
 }
 
 .flex-column {

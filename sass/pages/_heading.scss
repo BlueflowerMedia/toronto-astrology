@@ -22,6 +22,9 @@
   width: 150px;
   display: flex;
   justify-content: flex-end;
+  @include mobile {
+    display: none;
+  }
 
   .pic-social {
     padding: 0 5px;

@@ -2,7 +2,7 @@
 
 <section id="section-about">
   <div class="container flex-row">
-    <div class="image flex1">
+    <div class="about-image flex1">
       <img src="<?php echo get_template_directory_uri(); ?>/images/about-img-1.png" alt="">
     </div>
     <div class="about-content flex1">

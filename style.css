@@ -1291,6 +1291,9 @@ span.big-dot {
 
 .flex-row {
   flex-flow: row wrap; }
+  @media (max-width: 760px) {
+    .flex-row {
+      flex-direction: column; } }
 
 .flex-column {
   flex-flow: column; }
@@ -1574,9 +1577,6 @@ nav#site-navigation ul#primary-menu a {
 #services-all .address {
   padding-left: 190px; }
 
-#section-about.container {
-  display: flex; }
-
 .posts {
   text-align: center; }
   .posts .post {
@@ -1697,5 +1697,8 @@ nav#site-navigation ul#primary-menu a {
   width: 150px;
   display: flex;
   justify-content: flex-end; }
+  @media (max-width: 760px) {
+    .heading-right {
+      display: none; } }
   .heading-right .pic-social {
     padding: 0 5px; }
