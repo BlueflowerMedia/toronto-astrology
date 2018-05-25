@@ -1458,6 +1458,9 @@ nav#site-navigation ul#primary-menu a {
       list-style: square;
       font-size: 3rem;
       margin: 0 0 0 300px; }
+      @media (min-width: 760px) and (max-width: 1023px) {
+        #section-contact .all-list .list-left ul {
+          margin: 0 0 0 80px; } }
       @media (max-width: 760px) {
         #section-contact .all-list .list-left ul {
           margin: 0 0 0 80px; } }
@@ -1465,6 +1468,9 @@ nav#site-navigation ul#primary-menu a {
       list-style-type: none;
       font-size: 3rem;
       margin: 0; }
+      @media (min-width: 760px) and (max-width: 1023px) {
+        #section-contact .all-list .list-right ul {
+          margin: 0 0 0 50px; } }
       @media (max-width: 760px) {
         #section-contact .all-list .list-right ul {
           margin: 0 0 0 50px; } }

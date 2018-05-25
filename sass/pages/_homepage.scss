@@ -69,6 +69,9 @@
       list-style: square;
       font-size: 3rem;
       margin: 0 0 0 300px;
+      @include tablet {
+        margin: 0 0 0 80px;
+      }
       @include mobile {
         margin: 0 0 0 80px;
       }
@@ -78,6 +81,9 @@
       list-style-type: none;
       font-size: 3rem;
       margin: 0;
+      @include tablet {
+        margin: 0 0 0 50px;
+      }
       @include mobile {
         margin: 0 0 0 50px;
       }
