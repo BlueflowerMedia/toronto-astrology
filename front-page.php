@@ -14,6 +14,8 @@
       </li>
       <li class="slider-image">
       </li>
+      <li class="slider-image">
+      </li>
     </ul>
   </div>
 

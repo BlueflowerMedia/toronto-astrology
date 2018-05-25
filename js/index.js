@@ -13,7 +13,7 @@ $(document).ready(function() {
         next = $(".slideshow .slider-image:first");
       }
       next.addClass("active");
-    }, 5000);
+    }, 3500);
   }
   play();
 });
