@@ -1474,7 +1474,7 @@ nav#site-navigation .nav-middle ul#primary-menu a {
       flex-direction: column; } }
   #section-intro .container .image {
     padding-left: 50px;
-    max-height: 50%; }
+    object-fit: cover; }
     @media (max-width: 760px) {
       #section-intro .container .image {
         max-height: 50%; } }
@@ -1482,6 +1482,8 @@ nav#site-navigation .nav-middle ul#primary-menu a {
     font-size: 3rem;
     color: #fcd607; }
   #section-intro .container p {
+    font-family: "Acme", serif;
+    font-size: 1.5rem;
     color: white; }
 
 #section-services {
