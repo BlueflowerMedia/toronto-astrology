@@ -45,13 +45,6 @@
         </section>
 
         <nav id="site-navigation" class="main-navigation container-navbar">
-          <!-- navbar left -->
-          <div class="nav-left">
-            <?php the_custom_logo(); ?>
-            <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-            </a>
-          </div>
-          <!-- navbar middle -->
           <div class="nav-middle">
             <?php
           wp_nav_menu( array(
