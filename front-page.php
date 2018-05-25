@@ -73,27 +73,27 @@
 
       <div class="service flex1">
         <img class="pictureservice" src="<?php echo get_template_directory_uri(); ?>/images/services/toronto-astrology-black-magic.png" alt="">
-        <a href="<?php echo get_the_title(get_page_by_path( 'black-magic-removal' )); ?>"><h3>Black Magic Removal</h3></a>
+        <a href="<?php echo get_permalink(get_page_by_path( 'black-magic-removal' )); ?>"><h3>Black Magic Removal</h3></a>
       </div>
       <div class="service flex1">
         <img class="pictureservice" src="<?php echo get_template_directory_uri(); ?>/images/services/toronto-astrology-love.png" alt="">
-        <a href="<?php echo get_the_title(get_page_by_path( 'love-psychic-reading' )); ?>"><h3>Love Sick Remedies</h3></a>
+        <a href="<?php echo get_permalink(get_page_by_path( 'love-psychic-reading' )); ?>"><h3>Love Sick Remedies</h3></a>
       </div>
       <div class="service flex1">
         <img class="pictureservice" src="<?php echo get_template_directory_uri(); ?>/images/services/toronto-astrology-business" alt="">
-        <a href="<?php echo get_the_title(get_page_by_path( 'business-problem' )); ?>"><h3>Business Problems</h3></a>
+        <a href="<?php echo get_permalink(get_page_by_path( 'business-problem' )); ?>"><h3>Business Problems</h3></a>
       </div>
       <div class="service flex1">
         <img class="pictureservice" src="<?php echo get_template_directory_uri(); ?>/images/services/toronto-astrology-marriage" alt="">
-        <a href="<?php echo get_the_title(get_page_by_path( 'marriage-related-problem' )); ?>"><h3>Marriage Related Problem</h3></a>
+        <a href="<?php echo get_permalink(get_page_by_path( 'marriage-related-problem' )); ?>"><h3>Marriage Related Problem</h3></a>
       </div>
       <div class="service flex1">
         <img class="pictureservice" src="<?php echo get_template_directory_uri(); ?>/images/services/toronto-astrology-family" alt="">
-        <a href="<?php echo get_the_title(get_page_by_path( 'family-problems' )); ?>"><h3>Family Problems</h3></a>
+        <a href="<?php echo get_permalink(get_page_by_path( 'family-problems' )); ?>"><h3>Family Problems</h3></a>
       </div>
       <div class="service flex1">
         <img class="pictureservice" src="<?php echo get_template_directory_uri(); ?>/images/services/toronto-astrology-palm" alt="">
-        <a href="<?php echo get_the_title(get_page_by_path( 'palm-reading' )); ?>"><h3>Palm Reading</h3></a>
+        <a href="<?php echo get_permalink(get_page_by_path( 'palm-reading' )); ?>"><h3>Palm Reading</h3></a>
       </div>
 
     </div>
