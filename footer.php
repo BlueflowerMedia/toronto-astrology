@@ -24,10 +24,10 @@
 
 			<!-- Social media -->
 				<div class="footer-right flex1">
-						<a href="">
+						<a href="https://www.facebook.com/">
 							<img id="picf" src="<?php echo get_template_directory_uri(); ?>/images/toronto-astrology-facebook.png" alt="">
 						</a>
-						<a href="">
+						<a href="https://www.youtube.com/">
 							<img id="picf" src="<?php echo get_template_directory_uri(); ?>/images/toronto-astrology-youtube-icon.png" alt="">
 						</a>
 	      </div>
