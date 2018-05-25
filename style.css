@@ -1483,7 +1483,9 @@ nav#site-navigation ul#primary-menu a {
   background-color: #65090b; }
   @media (max-width: 760px) {
     #section-intro .container {
-      flex-direction: column; } }
+      flex-direction: column; }
+      #section-intro .container img {
+        margin: auto; } }
   #section-intro .container .intro-image {
     padding-left: 50px;
     object-fit: cover;

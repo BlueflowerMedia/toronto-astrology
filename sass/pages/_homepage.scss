@@ -98,6 +98,10 @@
     background-color: $red;
     @include mobile {
       flex-direction: column;
+
+      img {
+        margin: auto;
+      }
     }
 
     .intro-image {
