@@ -49,13 +49,13 @@
 <section id="section-intro">
   <div class="container flex-row">
     <div class="intro-text flex1">
-      <h1 class="white">Pandit Sri Krishna<br>Best Astrologer in Toronto!</h1>
-      <p class="white">Many of people think about future that what will gonna happen in our future? Pandit Krishna is an astrologer in Toronto, Ontario, Brampton, Mississauga, Downtown ,Vancouver , Canada, help you and our astrologer gives you best and top astrologer
+      <h1>Pandit Sri Krishna<br>Best Astrologer in Toronto!</h1>
+      <p>Many of people think about future that what will gonna happen in our future? Pandit Krishna is an astrologer in Toronto, Ontario, Brampton, Mississauga, Downtown ,Vancouver , Canada, help you and our astrologer gives you best and top astrologer
         services all over Canada. He is a good and best Indian astrologer who gives you best spiritual healing and psychic readings to solve the problem facing by the people. Our astrologer now available in your town Toronto, Ontario, Brampton, Mississauga,
         Downtown, Vancouver , Canada. He will provides you 100% satisfactory services and solve your problem within 2 to 3 days. So feel free to come near to us and solve any type astrological problem.</p>
 
     </div>
-    <div class="image flex1">
+    <div class="intro-image flex1">
       <img id="pic-intro" src="<?php echo get_template_directory_uri(); ?>/images/toronto-astrology-sunset.png" alt="">
     </div>
   </div>
@@ -73,27 +73,27 @@
 
       <div class="service flex1">
         <img class="pictureservice" src="<?php echo get_template_directory_uri(); ?>/images/services/toronto-astrology-black-magic.png" alt="">
-        <h3>Black Magic Removal</h3>
+        <a href="<?php echo get_the_title(get_page_by_path( 'black-magic-removal' )); ?>"><h3>Black Magic Removal</h3></a>
       </div>
       <div class="service flex1">
         <img class="pictureservice" src="<?php echo get_template_directory_uri(); ?>/images/services/toronto-astrology-love.png" alt="">
-        <h3>Love Sick Remedies</h3>
+        <a href="<?php echo get_the_title(get_page_by_path( 'love-psychic-reading' )); ?>"><h3>Love Sick Remedies</h3></a>
       </div>
       <div class="service flex1">
         <img class="pictureservice" src="<?php echo get_template_directory_uri(); ?>/images/services/toronto-astrology-business" alt="">
-        <h3>Business Problems</h3>
+        <a href="<?php echo get_the_title(get_page_by_path( 'business-problem' )); ?>"><h3>Business Problems</h3></a>
       </div>
       <div class="service flex1">
         <img class="pictureservice" src="<?php echo get_template_directory_uri(); ?>/images/services/toronto-astrology-marriage" alt="">
-        <h3>Marriage Related Problem</h3>
+        <a href="<?php echo get_the_title(get_page_by_path( 'marriage-related-problem' )); ?>"><h3>Marriage Related Problem</h3></a>
       </div>
       <div class="service flex1">
         <img class="pictureservice" src="<?php echo get_template_directory_uri(); ?>/images/services/toronto-astrology-family" alt="">
-        <h3>Family Problems</h3>
+        <a href="<?php echo get_the_title(get_page_by_path( 'family-problems' )); ?>"><h3>Family Problems</h3></a>
       </div>
       <div class="service flex1">
         <img class="pictureservice" src="<?php echo get_template_directory_uri(); ?>/images/services/toronto-astrology-palm" alt="">
-        <h3>Palm Reading</h3>
+        <a href="<?php echo get_the_title(get_page_by_path( 'palm-reading' )); ?>"><h3>Palm Reading</h3></a>
       </div>
 
     </div>

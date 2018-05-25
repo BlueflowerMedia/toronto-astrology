@@ -15,6 +15,20 @@
 		margin: 20px 0;
 	}
 }
+
+.footer-container {
+	padding: 5px 10%;
+	@include tablet {
+		padding: 5px 5%;
+	}
+	@include mobile {
+		padding: 5px 5%;
+	}
+
+	.row {
+		margin: 20px 0;
+	}
+}
 // FLEX GRID
 
 %flex {

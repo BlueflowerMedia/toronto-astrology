@@ -15,10 +15,10 @@
 
 	<div class="margin-for-footer"></div>
 	<footer id="colophon" class="site-footer">
-    <div class="container flex-row">
+    <div class="footer-container flex-row">
       <div class="footer-left flex1">
         <p>
-					<h3 class="color: white;">&copy; <?php the_time('Y') ?>All rights reserved. Toronto-Astrology</h3>
+					<h5 class="color: white;">&copy; <?php the_time('Y') ?>All rights reserved. Toronto-Astrology</h5>
 				</p>
       </div>
 
