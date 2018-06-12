@@ -12,9 +12,9 @@
  <div class="address">
     <h2>Address</h2>
     <p>
-      <i class="fas fa-map-marker" style="color:#FF4500"></i> Address: 7393 Markham Rd, Markham, ON L3S 0B5<br><br>
-      <i class="far fa-envelope" style="color:#FF4500"></i> Email:  info@Toronto-astrology.com<br><br>
-      <i class="fa fa-phone" style="color:#FF4500"></i> Phone: (647) 220-7899
+      <i class="fas fa-map-marker" style="color:white"></i> Address: 7393 Markham Rd, Markham, ON L3S 0B5<br><br>
+      <i class="far fa-envelope" style="color:white"></i> Email:  info@Toronto-astrology.com<br><br>
+      <i class="fa fa-phone" style="color:white"></i> Phone: (647) 220-7899
     </p>
   </div>
 

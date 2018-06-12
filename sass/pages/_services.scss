@@ -12,6 +12,20 @@
   }
 
   .address {
-    padding-left: 190px;
+    padding: 20px 0 20px 190px;
+    background-color: $red;
+    color: white;
+    p {
+      padding: 0;
+      color: white;
+    }
+    h2 {
+      padding: 0;
+      color: white;
+    }
+    @include mobile {
+      padding: 20px;
+    }
   }
+
 }
