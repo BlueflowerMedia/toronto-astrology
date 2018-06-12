@@ -69,31 +69,30 @@
   <div class="container">
 
     <h1 id="serv-head">Our Specialied Services</h1>
-    <div class="seperator"></div>
 
     <div class="Services flex-row">
 
-      <div class="service flex1">
+      <div class="service">
         <img class="pictureservice" src="<?php echo get_template_directory_uri(); ?>/images/services/toronto-astrology-black-magic.png" alt="">
         <a href="<?php echo get_permalink(get_page_by_path( 'black-magic-removal' )); ?>"><h3>Black Magic Removal</h3></a>
       </div>
-      <div class="service flex1">
+      <div class="service">
         <img class="pictureservice" src="<?php echo get_template_directory_uri(); ?>/images/services/toronto-astrology-love.png" alt="">
         <a href="<?php echo get_permalink(get_page_by_path( 'love-psychic-reading' )); ?>"><h3>Love Sick Remedies</h3></a>
       </div>
-      <div class="service flex1">
+      <div class="service">
         <img class="pictureservice" src="<?php echo get_template_directory_uri(); ?>/images/services/toronto-astrology-business.png" alt="">
         <a href="<?php echo get_permalink(get_page_by_path( 'business-problem' )); ?>"><h3>Business Problems</h3></a>
       </div>
-      <div class="service flex1">
+      <div class="service">
         <img class="pictureservice" src="<?php echo get_template_directory_uri(); ?>/images/services/toronto-astrology-marriage.png" alt="">
         <a href="<?php echo get_permalink(get_page_by_path( 'marriage-related-problem' )); ?>"><h3>Marriage Related Problem</h3></a>
       </div>
-      <div class="service flex1">
+      <div class="service">
         <img class="pictureservice" src="<?php echo get_template_directory_uri(); ?>/images/services/toronto-astrology-family.png" alt="">
         <a href="<?php echo get_permalink(get_page_by_path( 'family-problems' )); ?>"><h3>Family Problems</h3></a>
       </div>
-      <div class="service flex1">
+      <div class="service">
         <img class="pictureservice" src="<?php echo get_template_directory_uri(); ?>/images/services/toronto-astrology-palm.png" alt="">
         <a href="<?php echo get_permalink(get_page_by_path( 'palm-reading' )); ?>"><h3>Palm Reading</h3></a>
       </div>
