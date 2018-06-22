@@ -37,7 +37,7 @@
 
           <!-- Social media ----->
           <div class="heading-right">
-            <a href="https://www.facebook.com/"><img class="pic-social" src="<?php echo get_template_directory_uri(); ?>/images/toronto-astrology-facebook.png" alt=""></a>
+            <a href="https://www.facebook.com/Toronto-Astrology-1126213817542255/?modal=admin_todo_tour"><img class="pic-social" src="<?php echo get_template_directory_uri(); ?>/images/toronto-astrology-facebook.png" alt=""></a>
             <a href="https://www.youtube.com/"><img class="pic-social" src="<?php echo get_template_directory_uri(); ?>/images/toronto-astrology-youtube-icon.png" alt=""></a>
           </div>
         </section>
@@ -58,5 +58,3 @@
           </div> -->
         </nav>
       </header>
-
-      <div id="content" class="site-content">

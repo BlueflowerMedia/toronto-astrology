@@ -1519,8 +1519,10 @@ nav#site-navigation ul#primary-menu a {
     background-color: #65090b;
     text-align: center;
     margin: 0;
-    padding: 0;
+    padding: 13px;
     color: #fcd607; }
+    #section-services .container h3:hover {
+      background: #4b0b0c; }
   #section-services .container .service {
     min-width: 350px;
     width: 33%;
@@ -1537,10 +1539,22 @@ nav#site-navigation ul#primary-menu a {
 
 #section-appointment .container {
   background-color: #fcd607; }
+  @media (max-width: 760px) {
+    #section-appointment .container {
+      padding: 0; } }
   #section-appointment .container .pic-app {
-    max-width: 150%;
+    max-width: 160%;
     margin-left: -200px; }
+    @media (max-width: 760px) {
+      #section-appointment .container .pic-app {
+        display: block;
+        max-width: 100px; } }
   #section-appointment .container h1 {
+    font-family: "Lobster Two", sans-serif;
+    text-align: center;
+    justify-content: center;
+    color: #65090b; }
+  #section-appointment .container h2 {
     font-family: "Lobster Two", sans-serif;
     text-align: center;
     justify-content: center;

@@ -17,7 +17,7 @@
         <a href=""><i class="fas fa-phone-volume" style="color:#3B5998"></i></a>(647) 220-7899
       </p>
       <p>
-        <a href=""><i class="fas fa-envelope-square" style="color:#3B5998"></i></a> info@toronto-astrology.com
+        <a href=""><i class="fas fa-envelope-square" style="color:#3B5998"></i></a> srikrishnaastrologer@gmail.com
       </p>
       <p>
         <a href=""><i class="fas fa-map-marker" style="color:red"></i></a> 7393 Markham Rd, Markham, ON L3S 0B5
