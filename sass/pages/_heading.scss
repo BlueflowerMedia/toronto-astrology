@@ -19,7 +19,7 @@
 
 .heading-right {
   @include position(absolute, $right: 20px, $top: 0);
-  width: 150px;
+  width: 110px;
   display: flex;
   justify-content: flex-end;
   @include mobile {
