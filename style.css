@@ -1466,7 +1466,7 @@ nav#site-navigation ul#primary-menu a {
           margin: 0 0 0 80px; } }
       @media (max-width: 760px) {
         #section-contact .all-list .list-left ul {
-          margin: 0 0 0 80px; } }
+          margin: 0 0 0 8; } }
     #section-contact .all-list .list-right ul {
       list-style-type: none;
       font-size: 3rem;
@@ -1698,12 +1698,9 @@ nav#site-navigation ul#primary-menu a {
     color: white; }
   #section-contact-forms .container h2 {
     color: #fcd607; }
-  #section-contact-forms .container .form {
-    top: 0;
-    left: 0;
-    height: 500px;
-    width: 100%;
-    opacity: 0; }
+  #section-contact-forms .container .forms {
+    height: auto;
+    width: 100%; }
 
 #contact-map .container .contact-info,
 #contact-map .container .contact-map {
