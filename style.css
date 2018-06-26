@@ -1608,6 +1608,19 @@ nav#site-navigation ul#primary-menu a {
     #services-all .address {
       padding: 20px; } }
 
+#section-homeservices a {
+  text-decoration: none; }
+#section-homeservices ul {
+  padding: 0; }
+#section-homeservices h3 {
+  font-family: "Lobster Two", sans-serif;
+  background-color: #65090b;
+  text-align: center;
+  margin: 10px;
+  color: #fcd607; }
+  #section-homeservices h3:hover {
+    background: #4b0b0c; }
+
 .posts {
   text-align: center; }
   .posts .post {
