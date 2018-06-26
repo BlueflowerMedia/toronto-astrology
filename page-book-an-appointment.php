@@ -4,7 +4,7 @@
   <div class="container">
     <h1>Booking An appointment</h1>
     <h2>Contact form</h2>
-    <?php echo do_shortcode('[contact-form-7 id="85" title="Contact form 1"]') ?>
+    <?php echo do_shortcode('[contact-form-7 id="93" title="Contact form 1"]') ?>
 
   </div>
 </section>
