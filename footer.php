@@ -24,7 +24,7 @@
 
 			<!-- Social media -->
 				<div class="footer-right flex1">
-						<a href="https://www.facebook.com/">
+						<a href="https://www.facebook.com/Toronto-Astrology-1126213817542255/?modal=admin_todo_tour">
 							<img id="picf" src="<?php echo get_template_directory_uri(); ?>/images/toronto-astrology-facebook.png" alt="">
 						</a>
 						<a href="https://www.youtube.com/">

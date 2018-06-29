@@ -36,7 +36,7 @@
       <ul>
         <li>Call Today!</li>
         <li>(647) 220-7899</li>
-        <li>info@toronto-astrology.com</li>
+        <li>srikrishnaastrologer@gmail.com</li>
       </ul>
     </div>
   </div>
@@ -78,7 +78,7 @@
       </div>
       <div class="service">
         <img class="pictureservice" src="<?php echo get_template_directory_uri(); ?>/images/services/toronto-astrology-love.png" alt="">
-        <a href="<?php echo get_permalink(get_page_by_path( 'love-psychic-reading' )); ?>"><h3>Love Sick Remedies</h3></a>
+        <a href="<?php echo get_permalink(get_page_by_path( 'get-lover-back' )); ?>"><h3>Get Lover Back</h3></a>
       </div>
       <div class="service">
         <img class="pictureservice" src="<?php echo get_template_directory_uri(); ?>/images/services/toronto-astrology-business.png" alt="">
@@ -90,7 +90,7 @@
       </div>
       <div class="service">
         <img class="pictureservice" src="<?php echo get_template_directory_uri(); ?>/images/services/toronto-astrology-family.png" alt="">
-        <a href="<?php echo get_permalink(get_page_by_path( 'family-problems' )); ?>"><h3>Family Problems</h3></a>
+        <a href="<?php echo get_permalink(get_page_by_path( 'family-problem' )); ?>"><h3>Family Problems</h3></a>
       </div>
       <div class="service">
         <img class="pictureservice" src="<?php echo get_template_directory_uri(); ?>/images/services/toronto-astrology-palm.png" alt="">

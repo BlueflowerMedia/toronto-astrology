@@ -1,29 +1,36 @@
+.head-appointment {
+  padding: 0;
+  margin: 20px 0 0 0;
+  text-align: center;
+}
 #section-contact-forms .container {
-  height: auto;
-  background-color: $red;
   color: white;
+  margin: 0;
+  padding: 0 auto;
 
   h1 {
-    color: white;
+    color: black;
+  }
+  h3 {
+    color: $red;
+  }
+  .contact-info {
+    i {
+      font-size: 2rem;
+    }
+    p {
+      font-size: 1.5rem;
+    }
   }
 
-  h2 {
-    color: $yellow;
-  }
-
-  .form {
-    top: 0;
-    left: 0;
-    height: 500px;
-    width: 100%;
-    opacity: 0;
+  .forms input {
+      margin: 4px;
+      min-width: 100%;
   }
 }
-// part map
 
+// part map
 #contact-map .container {
-  .contact-info,
-  .contact-map {
-    min-width: 300px;
-  }
+  padding: 0;
+  margin: 0;
 }

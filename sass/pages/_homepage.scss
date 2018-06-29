@@ -73,7 +73,7 @@
         margin: 0 0 0 80px;
       }
       @include mobile {
-        margin: 0 0 0 80px;
+        margin: 0 0 0 8;
       }
     }
 
@@ -151,8 +151,11 @@
       background-color: $red;
       text-align: center;
       margin: 0;
-      padding: 0;
+      padding: 13px;
       color: $yellow;
+      &:hover {
+          background: $light-red;
+        }
     }
 
     .service {
@@ -180,13 +183,26 @@
 #section-appointment {
   .container {
     background-color: $yellow;
+    @include mobile {
+      padding: 0;
+    }
 
     .pic-app {
-      max-width: 150%;
+      max-width: 160%;
       margin-left: -200px;
+      @include mobile {
+        display: block;
+        max-width: 100px;
+      }
     }
 
     h1 {
+      font-family: $font-primary;
+      text-align: center;
+      justify-content: center;
+      color: $red;
+    }
+    h2 {
       font-family: $font-primary;
       text-align: center;
       justify-content: center;
