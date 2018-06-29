@@ -112,8 +112,8 @@
     </div>
 
     <div class="appointment flex2">
-      <h2>Book Your Appointment!</h2>
-      <h2>Change your life today.</h2>
+      <h1>Book Your Appointment!</h1>
+      <h1>Change your life today.</h1>
       <h1>(647) 220-7899</h1>
     </div>
 

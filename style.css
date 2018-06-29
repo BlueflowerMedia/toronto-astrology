@@ -1561,7 +1561,7 @@ button.nav-contact {
           margin: 0 0 0 80px; } }
       @media (max-width: 760px) {
         #section-contact .all-list .list-left ul {
-          margin: 0 0 0 80px; } }
+          margin: 0 0 0 8; } }
     #section-contact .all-list .list-right ul {
       list-style-type: none;
       font-size: 3rem;
@@ -1703,6 +1703,19 @@ button.nav-contact {
     #services-all .address {
       padding: 20px; } }
 
+#section-homeservices a {
+  text-decoration: none; }
+#section-homeservices ul {
+  padding: 0; }
+#section-homeservices h3 {
+  font-family: "Lobster Two", sans-serif;
+  background-color: #65090b;
+  text-align: center;
+  margin: 10px;
+  color: #fcd607; }
+  #section-homeservices h3:hover {
+    background: #4b0b0c; }
+
 .posts {
   text-align: center; }
   .posts .post {
@@ -1785,24 +1798,30 @@ button.nav-contact {
 .footer-right {
   text-align: right; }
 
-#section-contact-forms .container {
-  height: auto;
-  background-color: #65090b;
-  color: white; }
-  #section-contact-forms .container h1 {
-    color: white; }
-  #section-contact-forms .container h2 {
-    color: #fcd607; }
-  #section-contact-forms .container .form {
-    top: 0;
-    left: 0;
-    height: 500px;
-    width: 100%;
-    opacity: 0; }
+.head-appointment {
+  padding: 0;
+  margin: 20px 0 0 0;
+  text-align: center; }
 
-#contact-map .container .contact-info,
-#contact-map .container .contact-map {
-  min-width: 300px; }
+#section-contact-forms .container {
+  color: white;
+  margin: 0;
+  padding: 0 auto; }
+  #section-contact-forms .container h1 {
+    color: black; }
+  #section-contact-forms .container h3 {
+    color: #65090b; }
+  #section-contact-forms .container .contact-info i {
+    font-size: 2rem; }
+  #section-contact-forms .container .contact-info p {
+    font-size: 1.5rem; }
+  #section-contact-forms .container .forms input {
+    margin: 4px;
+    min-width: 100%; }
+
+#contact-map .container {
+  padding: 0;
+  margin: 0; }
 
 .top-heading {
   background-color: #65090b;
@@ -1820,7 +1839,7 @@ button.nav-contact {
   position: absolute;
   top: 0;
   right: 20px;
-  width: 150px;
+  width: 110px;
   display: flex;
   justify-content: flex-end; }
   @media (max-width: 760px) {

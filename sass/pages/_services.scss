@@ -29,3 +29,25 @@
   }
 
 }
+
+// section-services -------------------------
+
+#section-homeservices {
+  a {
+    text-decoration: none;
+  }
+  ul {
+    padding: 0;
+  }
+
+    h3 {
+      font-family: $font-primary;
+      background-color: $red;
+      text-align: center;
+      margin: 10px;
+      color: $yellow;
+      &:hover {
+          background: $light-red;
+        }
+    }
+  }
