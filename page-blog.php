@@ -2,7 +2,7 @@
 
 <?php $query = new WP_Query(" "); ?>
 
-<section>
+<section id="section-blog">
   <div class="container">
     <div class="posts">
       <?php if ( $query->have_posts() ): while ( $query->have_posts() ): $query->the_post(); ?>
