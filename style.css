@@ -1716,31 +1716,27 @@ button.nav-contact {
   #section-homeservices h3:hover {
     background: #4b0b0c; }
 
-.posts {
-  text-align: center; }
-  .posts .post {
-    width: 80%;
-    margin: 0 auto; }
-    .posts .post .post-image {
-      position: relative; }
-      .posts .post .post-image img {
-        width: 100%;
-        height: 400px;
-        object-fit: cover; }
-      .posts .post .post-image .post-info {
-        position: absolute;
-        top: 80%;
-        left: 10%;
+.container-post {
+  width: 65%;
+  margin: 0 auto 30px auto;
+  max-width: 1200px; }
+  @media (max-width: 760px) {
+    .container-post {
+      width: 100%; } }
+  .container-post .post {
+    padding-top: 2em;
+    width: 100%; }
+    .container-post .post .post-image img {
+      width: 100%;
+      height: 400px;
+      object-fit: cover; }
+    .container-post .post .post-info {
+      text-align: center; }
+      .container-post .post .post-info p {
         width: 80%;
-        height: auto;
-        background-color: white;
-        padding: 10px;
-        box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.2); }
-        @media (max-width: 760px) {
-          .posts .post .post-image .post-info {
-            top: 100%;
-            width: 100%;
-            left: 0; } }
+        text-align: center;
+        margin: 10px auto;
+        margin-bottom: 1.5em; }
 
 .post-info a {
   text-decoration: none; }
@@ -1772,6 +1768,8 @@ button.nav-contact {
   padding: 10px;
   max-width: 800px;
   margin: 0 auto; }
+  .container-blog .entry-content {
+    text-align: justify; }
 
 #related-posts .container-blog .related-posts {
   justify-content: flex-start; }

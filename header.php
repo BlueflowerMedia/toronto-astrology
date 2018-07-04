@@ -63,7 +63,7 @@
                 <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a></li>
                 <li><a href="<?php echo get_permalink(get_page_by_path( ‘about’ )); ?>">About</a></li>
                 <li><a href="<?php echo get_permalink(get_page_by_path( ‘services’ )); ?>">Services</a></li>
-                <li><a href="<?php echo get_permalink(get_page_by_path( ‘blog’ )); ?>">Blog</a></li>
+                <li><a href="<?php echo get_permalink(get_page_by_path( ‘page-blog’ )); ?>">Blog</a></li>
                 <li><a href="<?php echo get_permalink(get_page_by_path( ‘booking’ )); ?>">Book An Appointment</a>
               </ul>
             </div>
