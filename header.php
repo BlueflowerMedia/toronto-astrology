@@ -29,10 +29,7 @@
         <section class="top-heading">
           <div class="container flex-row">
             <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-              <h3>TORONTO</h3></a>
-            <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-              <img id="pic-logo" src="<?php echo get_template_directory_uri(); ?>/images/logo-example.png" alt=""></a>
-            <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><h3>ASTROLOGY</h3></a>
+              <img id="pic-logo" src="<?php echo get_template_directory_uri(); ?>/images/toronto-astrology-logo-animated-final.gif" alt=""></a>
           </div>
 
           <!-- Social media ----->
