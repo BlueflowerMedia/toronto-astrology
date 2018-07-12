@@ -39,7 +39,34 @@
           </div>
         </section>
 
-        <nav id="site-navigation" class="main-navigation container-navbar">
+        <section class="menu-heading flex-row">
+          <nav id="site-navigation" class="main-navigation container-navbar">
+            <div class="nav-middle">
+              <?php
+            wp_nav_menu( array(
+              'theme_location' => 'menu-1',
+              'menu_id'        => 'primary-menu',
+            ) );
+          ?>
+            </div>
+          </nav>
+            <div class="hamburger" id="hamburger-9">
+              <span class="line"></span>
+              <span class="line"></span>
+              <span class="line"></span>
+            </div>
+            <div id="dropdown-menu" class="dropdown">
+              <ul>
+                <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a></li>
+                <li><a href="<?php echo get_permalink(get_page_by_path( ‘about’ )); ?>">About</a></li>
+                <li><a href="<?php echo get_permalink(get_page_by_path( ‘services’ )); ?>">Services</a></li>
+                <li><a href="<?php echo get_permalink(get_page_by_path( ‘page-blog’ )); ?>">Blog</a></li>
+                <li><a href="<?php echo get_permalink(get_page_by_path( ‘booking’ )); ?>">Book An Appointment</a>
+              </ul>
+            </div>
+        </section>
+
+        <!-- <nav id="site-navigation" class="main-navigation container-navbar">
           <div class="nav-middle">
             <?php
           wp_nav_menu( array(
@@ -53,5 +80,7 @@
             <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'blueflowermedia' ); ?></button>
             <a href=""><button class="nav-contact" type="button" name="button">Contact Us</button></a>
           </div> -->
-        </nav>
+        <!-- </nav> -->
       </header>
+    </div>
+  </body>
