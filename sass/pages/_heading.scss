@@ -11,12 +11,32 @@
     align-items: center;
     height: 140px;
   }
-
-  h3 {
-    color: $yellow;
+  #heading-left {
+    margin-left: -5%;
+    margin-top: 50px;
+      h4 {
+        color: #f9ff00;
+        font-family: $font-primary;
+      }
+      @include mobile{
+        display: none;
+      }
   }
 }
 
+.heading-right {
+  @include position(absolute, $right: 20px, $top: 0);
+  width: 110px;
+  display: flex;
+  justify-content: flex-end;
+  @include mobile {
+    display: none;
+  }
+
+  .pic-social {
+    padding: 0 5px;
+  }
+}
 .heading-right {
   @include position(absolute, $right: 20px, $top: 0);
   width: 110px;

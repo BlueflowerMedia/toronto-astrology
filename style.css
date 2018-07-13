@@ -1203,7 +1203,7 @@ object {
 
 html {
   font-size: 16px; }
-  @media (min-width: 760px) and (max-width: 759px) {
+  @media (min-width: 760px) and (max-width: 999px) {
     html {
       font-size: 13px; } }
   @media (max-width: 760px) {
@@ -1266,7 +1266,7 @@ span.big-dot {
 
 .container {
   padding: 50px 10%; }
-  @media (min-width: 760px) and (max-width: 759px) {
+  @media (min-width: 760px) and (max-width: 999px) {
     .container {
       padding: 50px 5%; } }
   @media (max-width: 760px) {
@@ -1277,7 +1277,7 @@ span.big-dot {
 
 .footer-container {
   padding: 5px 10%; }
-  @media (min-width: 760px) and (max-width: 759px) {
+  @media (min-width: 760px) and (max-width: 999px) {
     .footer-container {
       padding: 5px 5%; } }
   @media (max-width: 760px) {
@@ -1556,7 +1556,7 @@ button.nav-contact {
       list-style: square;
       font-size: 3rem;
       margin: 0 0 0 300px; }
-      @media (min-width: 760px) and (max-width: 759px) {
+      @media (min-width: 760px) and (max-width: 999px) {
         #section-contact .all-list .list-left ul {
           margin: 0 0 0 80px; } }
       @media (max-width: 760px) {
@@ -1566,7 +1566,7 @@ button.nav-contact {
       list-style-type: none;
       font-size: 3rem;
       margin: 0; }
-      @media (min-width: 760px) and (max-width: 759px) {
+      @media (min-width: 760px) and (max-width: 999px) {
         #section-contact .all-list .list-right ul {
           margin: 0 0 0 50px; } }
       @media (max-width: 760px) {
@@ -1830,8 +1830,28 @@ button.nav-contact {
     justify-content: center;
     align-items: center;
     height: 140px; }
-  .top-heading h3 {
-    color: #fcd607; }
+  .top-heading #heading-left {
+    margin-left: -5%;
+    margin-top: 50px; }
+    .top-heading #heading-left h4 {
+      color: #f9ff00;
+      font-family: "Lobster Two", sans-serif; }
+    @media (max-width: 760px) {
+      .top-heading #heading-left {
+        display: none; } }
+
+.heading-right {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  width: 110px;
+  display: flex;
+  justify-content: flex-end; }
+  @media (max-width: 760px) {
+    .heading-right {
+      display: none; } }
+  .heading-right .pic-social {
+    padding: 0 5px; }
 
 .heading-right {
   position: absolute;

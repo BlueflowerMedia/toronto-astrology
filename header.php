@@ -27,16 +27,25 @@
       <header id="masthead" class="site-header">
 
         <section class="top-heading">
+
           <div class="container flex-row">
+            <div id="heading-left" class="flex1">
+              <h4>Call (647) 220-7899</h4>
+            </div>
+
+            <div class="flex2">
             <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
               <img id="pic-logo" src="<?php echo get_template_directory_uri(); ?>/images/toronto-astrology-logo-animated-final.gif" alt=""></a>
-          </div>
+           </div>
 
-          <!-- Social media ----->
-          <div class="heading-right">
+           <!-- Social media ----->
+          <div class="heading-right flex1">
             <a href="https://www.facebook.com/Toronto-Astrology-1126213817542255/?modal=admin_todo_tour"><img class="pic-social" src="<?php echo get_template_directory_uri(); ?>/images/toronto-astrology-facebook.png" alt=""></a>
             <a href="https://www.youtube.com/"><img class="pic-social" src="<?php echo get_template_directory_uri(); ?>/images/toronto-astrology-youtube-icon.png" alt=""></a>
           </div>
+        </div>
+
+
         </section>
 
         <section class="menu-heading flex-row">
@@ -58,10 +67,10 @@
             <div id="dropdown-menu" class="dropdown">
               <ul>
                 <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a></li>
-                <li><a href="<?php echo get_permalink(get_page_by_path( ‘about’ )); ?>">About</a></li>
-                <li><a href="<?php echo get_permalink(get_page_by_path( ‘services’ )); ?>">Services</a></li>
-                <li><a href="<?php echo get_permalink(get_page_by_path( ‘page-blog’ )); ?>">Blog</a></li>
-                <li><a href="<?php echo get_permalink(get_page_by_path( ‘booking’ )); ?>">Book An Appointment</a>
+                <li><a href="<?php echo get_permalink(get_page_by_path( "about" )); ?>">About</a></li>
+                <li><a href="<?php echo get_permalink(get_page_by_path( "services" )); ?>">Services</a></li>
+                <li><a href="<?php echo get_permalink(get_page_by_path( "blog" )); ?>">Blog</a></li>
+                <li><a href="<?php echo get_permalink(get_page_by_path( "book-an-appointment" )); ?>">Book An Appointment</a>
               </ul>
             </div>
         </section>
