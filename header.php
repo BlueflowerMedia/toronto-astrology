@@ -26,24 +26,22 @@
 
       <header id="masthead" class="site-header">
 
-        <section class="top-heading">
+        <section id="top-header-new" class="flex-row">
 
-          <div class="container flex-row">
-            <div id="heading-left" class="flex1">
-              <h4>Call (647) 220-7899</h4>
-            </div>
+          <div id="top-header-left" class="flex1">
+            <h4><i class="fas fa-phone-volume" style="color:#f9ff00">(647) 220-7899</i></h4>
+          </div>
 
-            <div class="flex2">
+          <div id="top-header-middle" class="flex1">
             <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-              <img id="pic-logo" src="<?php echo get_template_directory_uri(); ?>/images/toronto-astrology-logo-animated-final.gif" alt=""></a>
-           </div>
+              <img id="pic-logo" src="<?php echo get_template_directory_uri(); ?>/images/toronto-astrology-logo-animated-final.gif" alt="">
+            </a>
+          </div>
 
-           <!-- Social media ----->
-          <div class="heading-right flex1">
+          <div id="top-header-right" class="flex1">
             <a href="https://www.facebook.com/Toronto-Astrology-1126213817542255/?modal=admin_todo_tour"><img class="pic-social" src="<?php echo get_template_directory_uri(); ?>/images/toronto-astrology-facebook.png" alt=""></a>
             <a href="https://www.youtube.com/"><img class="pic-social" src="<?php echo get_template_directory_uri(); ?>/images/toronto-astrology-youtube-icon.png" alt=""></a>
           </div>
-        </div>
 
 
         </section>

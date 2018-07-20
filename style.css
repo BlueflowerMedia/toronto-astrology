@@ -1327,6 +1327,22 @@ button.nav-contact {
   button.nav-contact:hover {
     background: white; }
 
+#top-header-new {
+  background: #65090b; }
+  #top-header-new > div {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  #top-header-new #top-header-right a img {
+    height: 35px;
+    margin: 0 5px; }
+  #top-header-new #top-header-left {
+    margin-top: -30px; }
+    #top-header-new #top-header-left h4 {
+      color: #fcd607; }
+      #top-header-new #top-header-left h4 i::before {
+        margin: 0 10px; }
+
 .menu-heading {
   background-color: #2a2a2a;
   position: relative;
