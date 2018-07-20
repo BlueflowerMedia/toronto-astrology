@@ -10,15 +10,27 @@
       height: 35px;
       margin: 0 5px;
     }
+    @include mobile {
+      display: none;
+    }
   }
   #top-header-left {
     margin-top: -30px;
+    @include mobile {
+      display: none;
+    }
     h4 {
       color: $yellow;
       i::before {
         margin: 0 10px;
       }
     }
+  }
+  #top-header-middle {
+    @include mobile {
+      order: 1;
+    }
+
   }
 }
 

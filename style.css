@@ -1336,12 +1336,21 @@ button.nav-contact {
   #top-header-new #top-header-right a img {
     height: 35px;
     margin: 0 5px; }
+  @media (max-width: 760px) {
+    #top-header-new #top-header-right {
+      display: none; } }
   #top-header-new #top-header-left {
     margin-top: -30px; }
+    @media (max-width: 760px) {
+      #top-header-new #top-header-left {
+        display: none; } }
     #top-header-new #top-header-left h4 {
       color: #fcd607; }
       #top-header-new #top-header-left h4 i::before {
         margin: 0 10px; }
+  @media (max-width: 760px) {
+    #top-header-new #top-header-middle {
+      order: 1; } }
 
 .menu-heading {
   background-color: #2a2a2a;
