@@ -114,7 +114,7 @@
     <div class="appointment flex2">
       <h1>Book Your Appointment!</h1>
       <h1>Change your life today.</h1>
-      <h1>(647) 220-7899</h1>
+      <h1 class="maxi-header">(647) 220-7899</h1>
     </div>
 
   </div>

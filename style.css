@@ -1674,11 +1674,8 @@ button.nav-contact {
     text-align: center;
     justify-content: center;
     color: #65090b; }
-  #section-appointment .container h2 {
-    font-family: "Lobster Two", sans-serif;
-    text-align: center;
-    justify-content: center;
-    color: #65090b; }
+  #section-appointment .container .maxi-header {
+    font-size: 6.5rem; }
 
 #section-testomonials .container {
   background-color: lightyellow; }
