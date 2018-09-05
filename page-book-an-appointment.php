@@ -13,7 +13,7 @@
           </p>
           <p>
             <a href=""><i class="fas fa-envelope-square" style="color:#3B5998"></i></a>
-            <br>srikrishnaastrologer@gmail.com
+            <br>srikrishnastrologer@gmail.com
           </p>
           <p>
             <a href=""><i class="fas fa-map-marker" style="color:red"></i></a>

@@ -36,7 +36,7 @@
       <ul>
         <li>Call Today!</li>
         <li>(647) 220-7899</li>
-        <li>srikrishnaastrologer@gmail.com</li>
+        <li>srikrishnastrologer@gmail.com</li>
       </ul>
     </div>
   </div>
@@ -74,27 +74,27 @@
 
       <div class="service">
         <img class="pictureservice" src="<?php echo get_template_directory_uri(); ?>/images/services/toronto-astrology-black-magic.png" alt="">
-        <a href="<?php echo get_permalink(get_page_by_path( 'black-magic-removal' )); ?>"><h3>Black Magic Removal</h3></a>
+        <a href="<?php echo get_permalink(get_page_by_path('black-magic-removal')); ?>"><h3>Black Magic Removal</h3></a>
       </div>
       <div class="service">
         <img class="pictureservice" src="<?php echo get_template_directory_uri(); ?>/images/services/toronto-astrology-love.png" alt="">
-        <a href="<?php echo get_permalink(get_page_by_path( 'get-lover-back' )); ?>"><h3>Get Lover Back</h3></a>
+        <a href="<?php echo get_permalink(get_page_by_path('get-lover-back')); ?>"><h3>Get Lover Back</h3></a>
       </div>
       <div class="service">
         <img class="pictureservice" src="<?php echo get_template_directory_uri(); ?>/images/services/toronto-astrology-business.png" alt="">
-        <a href="<?php echo get_permalink(get_page_by_path( 'business-problem' )); ?>"><h3>Business Problems</h3></a>
+        <a href="<?php echo get_permalink(get_page_by_path('business-problem')); ?>"><h3>Business Problems</h3></a>
       </div>
       <div class="service">
         <img class="pictureservice" src="<?php echo get_template_directory_uri(); ?>/images/services/toronto-astrology-marriage.png" alt="">
-        <a href="<?php echo get_permalink(get_page_by_path( 'marriage-related-problem' )); ?>"><h3>Marriage Related Problem</h3></a>
+        <a href="<?php echo get_permalink(get_page_by_path('marriage-related-problem')); ?>"><h3>Marriage Related Problem</h3></a>
       </div>
       <div class="service">
         <img class="pictureservice" src="<?php echo get_template_directory_uri(); ?>/images/services/toronto-astrology-family.png" alt="">
-        <a href="<?php echo get_permalink(get_page_by_path( 'family-problem' )); ?>"><h3>Family Problems</h3></a>
+        <a href="<?php echo get_permalink(get_page_by_path('family-problem')); ?>"><h3>Family Problems</h3></a>
       </div>
       <div class="service">
         <img class="pictureservice" src="<?php echo get_template_directory_uri(); ?>/images/services/toronto-astrology-palm.png" alt="">
-        <a href="<?php echo get_permalink(get_page_by_path( 'palm-reading' )); ?>"><h3>Palm Reading</h3></a>
+        <a href="<?php echo get_permalink(get_page_by_path('palm-reading')); ?>"><h3>Palm Reading</h3></a>
       </div>
 
     </div>
