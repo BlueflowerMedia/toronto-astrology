@@ -35,7 +35,7 @@
     <div class="list-right flex1">
       <ul>
         <li>Call Today!</li>
-        <li><i class="fas fa-skype" style="color:#f9ff00"></i><i class="fas fa-phone-volume" style="color:#f9ff00"></i>1-647-220-7899</li>
+        <li><i class="fab fa-skype" style="color:#f9ff00"></i><i class="fas fa-phone-volume" style="color:#f9ff00"></i>1-647-220-7899</li>
         <li>srikrishnastrologer@gmail.com</li>
       </ul>
     </div>

@@ -29,7 +29,7 @@
         <section id="top-header-new" class="flex-row">
 
           <div id="top-header-left" class="flex1">
-            <h4><i class="fas fa-skype" style="color:#f9ff00"></i><i class="fas fa-phone-volume" style="color:#f9ff00">1-647-220-7899</i></h4>
+            <h4><i class="fab fa-skype" style="color:#f9ff00"></i><i class="fas fa-phone-volume" style="color:#f9ff00">1-647-220-7899</i></h4>
           </div>
 
           <div id="top-header-middle" class="flex1">
